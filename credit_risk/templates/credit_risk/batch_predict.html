@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Carga Masiva - Evaluación de Crédito</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+    <div class="container mt-5">
+        <div class="card shadow">
+            <div class="card-header bg-success text-white">
+                <h3>📂 Carga Masiva de Solicitudes de Crédito</h3>
+                <a href="{% url 'home' %}" class="btn btn-light btn-sm">← Volver a Predicción Individual</a>
+            </div>
+            <div class="card-body">
+                <!-- Mensajes de Django -->
+                {% if messages %}
+                {% for message in messages %}
+                <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+                    {{ message }}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                </div>
+                {% endfor %}
+                {% endif %}
+
+                <!-- Instrucciones -->
+                <div class="alert alert-info">
+                    <h5>📋 Instrucciones:</h5>
+                    <ul>
+                        <li>El archivo debe ser formato <strong>CSV (.csv)</strong> o <strong>Excel (.xlsx)</strong>
+                        </li>
+                        <li>Debe contener las siguientes columnas:
+                            <ul class="mb-0">
+                                <li><code>score_interno</code> (AAA, AA, A, Analista, Rechazado)</li>
+                                <li><code>dias_mora_prom</code> (número)</li>
+                                <li><code>edad</code> (número)</li>
+                                <li><code>ingreso_mensual</code> (número)</li>
+                                <li><code>ventas_anuales</code> (número)</li>
+                                <li><code>monto_solicitado</code> (número)</li>
+                                <li><code>plazo_meses</code> (número)</li>
+                                <li><code>segmento_credito</code> (Consumo, Microcrédito, Inmobiliario, Ahorros
+                                    Suficientes)</li>
+                                <li><code>garantia</code> (Personal, Prendaria, Hipotecaria, Autoliquidable)</li>
+                                <li><code>tiene_garante</code> (True/False o 1/0)</li>
+                                <li><code>propiedad_completa</code> (True/False o 1/0)</li>
+                                <li><code>estado_legal</code> (True/False o 1/0)</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Formulario de Carga -->
+                <form method="post" enctype="multipart/form-data" class="mb-4">
+                    {% csrf_token %}
+                    <div class="mb-3">
+                        {{ form.file.label_tag }}
+                        {{ form.file }}
+                        <div class="form-text">{{ form.file.help_text }}</div>
+                    </div>
+                    <button type="submit" class="btn btn-success btn-lg w-100">
+                        🚀 Procesar Archivo
+                    </button>
+                </form>
+
+                <!-- Tabla de Resultados -->
+                {% if results %}
+                <div class="mt-4">
+                    <h4>Resultados de Predicción:</h4>
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover table-bordered">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>#</th>
+                                    <th>Score</th>
+                                    <th>Edad</th>
+                                    <th>Ingreso</th>
+                                    <th>Monto</th>
+                                    <th>Plazo</th>
+                                    <th>Segmento</th>
+                                    <th>Garantía</th>
+                                    <th class="table-warning">Predicción</th>
+                                    <th class="table-warning">Prob. Impago %</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for row in results %}
+                                <tr>
+                                    <td>{{ forloop.counter }}</td>
+                                    <td>{{ row.score_interno }}</td>
+                                    <td>{{ row.edad }}</td>
+                                    <td>${{ row.ingreso_mensual|floatformat:0 }}</td>
+                                    <td>${{ row.monto_solicitado|floatformat:0 }}</td>
+                                    <td>{{ row.plazo_meses }}</td>
+                                    <td>{{ row.segmento_credito }}</td>
+                                    <td>{{ row.garantia }}</td>
+                                    <td
+                                        class="{% if 'BAJO' in row.Prediccion_Riesgo %}table-success{% else %}table-danger{% endif %} fw-bold">
+                                        {{ row.Prediccion_Riesgo }}
+                                    </td>
+                                    <td>{{ row.Probabilidad_Impago_% }}%</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+import pandas as pd
+from django.shortcuts import render
+from django.contrib import messages
+from .forms import FileUploadForm
+import joblib
+# from .utils import preprocess_data  # Si tienes una función de limpieza
+
+# Cargar modelo (ajusta la ruta según tu proyecto)
+# model = joblib.load('ruta/a/tu/modelo.pkl')
+
+def batch_predict_view(request):
+    results = None
+    if request.method == 'POST':
+        form = FileUploadForm(request.POST, request.FILES)
+        if form.is_valid():
+            file = request.FILES['file']
+            try:
+                # 1. Leer archivo
+                if file.name.endswith('.csv'):
+                    df = pd.read_csv(file)
+                elif file.name.endswith(('.xls', '.xlsx')):
+                    df = pd.read_excel(file)
+                else:
+                    messages.error(request, "Formato no soportado. Use CSV o Excel.")
+                    return render(request, 'upload.html', {'form': form})
+
+                # 2. Validar columnas (Ejemplo)
+                # required_columns = ['ingresos', 'edad', 'historial'] 
+                # if not all(col in df.columns for col in required_columns):
+                #     messages.error(request, f"Faltan columnas. Requeridas: {required_columns}")
+                #     return render(request, 'upload.html', {'form': form})
+
+                # 3. Preprocesamiento y Predicción
+                # X = preprocess_data(df)
+                # predictions = model.predict(X)
+                
+                # Simulación de predicción para el ejemplo (BORRAR ESTO al integrar modelo real)
+                import numpy as np
+                predictions = np.random.choice(['Aprobado', 'Rechazado'], size=len(df))
+
+                # 4. Agregar resultados
+                df['Prediccion_Riesgo'] = predictions
+                
+                # Convertir a diccionario para la plantilla
+                results = df.to_dict(orient='records')
+                messages.success(request, f"Se procesaron {len(df)} registros exitosamente.")
+
+            except Exception as e:
+                messages.error(request, f"Error procesando el archivo: {str(e)}")
+    else:
+        form = FileUploadForm()
+
+    return render(request, 'upload.html', {'form': form, 'results': results})

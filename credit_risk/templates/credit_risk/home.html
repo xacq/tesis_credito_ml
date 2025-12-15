@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Evaluación de Crédito - Coop. Tulcán</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+    <div class="container mt-5">
+        <div class="card shadow">
+            <div class="card-header bg-primary text-white">
+                <h3>🏦 Sistema de Prospección de Crédito (IA)</h3>
+                <a href="{% url 'batch_predict' %}" class="btn btn-success">📂 Carga Masiva de Archivos</a>
+            </div>
+            <div class="card-body">
+                <form method="post">
+                    {% csrf_token %}
+                    <div class="row">
+                        {% for field in form %}
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label fw-bold">{{ field.label }}</label>
+                            {{ field }} {% if field.errors %}
+                            <div class="text-danger small">{{ field.errors }}</div>
+                            {% endif %}
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <button type="submit" class="btn btn-success w-100 mt-3">Evaluar Solicitud</button>
+                </form>
+
+                {% if resultado %}
+                <div
+                    class="alert mt-4 {% if 'BAJO' in resultado %}alert-success{% else %}alert-danger{% endif %} text-center">
+                    <h2>{{ resultado }}</h2>
+                    <p>Probabilidad de Impago calculada: <strong>{{ probabilidad }}%</strong></p>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

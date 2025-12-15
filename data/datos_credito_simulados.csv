@@ -1,0 +1,1001 @@
+score_interno,dias_mora_prom,edad,ingreso_mensual,ventas_anuales,segmento_credito,producto,monto_solicitado,plazo_meses,garantia,propiedad_completa,estado_civil,estado_legal,tiene_garante,rastreo_instalado,riesgo_real
+AAA,0,37,381.48,0.0,Consumo,Digital,4487.93,24,Personal,1,Soltero,0,1,0,0
+AA,0,47,780.12,0.0,Consumo,Digital,6617.87,12,Personal,0,Unión Libre,0,1,0,0
+A,2,31,750.68,0.0,Consumo,Digital,3383.15,84,Prendaria,1,Unión Libre,0,1,0,0
+Rechazado,18,25,255.54,0.0,Inmobiliario,Vivienda,67612.98,12,Hipotecaria,0,Unión Libre,0,1,0,1
+AA,0,32,2391.66,0.0,Ahorros Suficientes,Back-to-back,17342.4,24,Autoliquidable,0,Casado,0,1,0,0
+A,4,63,810.07,0.0,Consumo,Consumo General,6008.95,36,Prendaria,0,Divorciado,0,1,0,0
+A,3,48,399.1,0.0,Ahorros Suficientes,Back-to-back,27043.29,48,Autoliquidable,1,Soltero,0,1,0,1
+Analista,7,31,613.46,0.0,Inmobiliario,Vivienda,52527.89,84,Hipotecaria,1,Divorciado,0,1,0,1
+AAA,0,31,962.21,0.0,Inmobiliario,Vivienda,79039.4,24,Hipotecaria,1,Casado,0,1,0,0
+A,3,51,724.65,0.0,Inmobiliario,Vivienda,44471.67,36,Hipotecaria,1,Viudo,0,1,0,0
+AA,0,42,782.15,14078.7,Microcrédito,Vehicular Trabajo,6072.58,84,Personal,0,Divorciado,0,1,0,0
+Analista,6,32,548.65,9875.7,Microcrédito,Mi Negocio,9782.94,36,Personal,1,Casado,0,1,0,0
+AAA,0,37,312.91,5632.38,Microcrédito,Mi Negocio,16295.87,48,Prendaria,1,Soltero,0,1,0,1
+A,4,34,1152.66,0.0,Inmobiliario,Vivienda,28820.73,48,Hipotecaria,1,Unión Libre,0,0,0,0
+A,3,51,1404.89,25288.02,Microcrédito,Agrícola-Ganadero,3652.98,84,Prendaria,1,Viudo,0,1,0,0
+A,1,39,787.68,0.0,Ahorros Suficientes,Back-to-back,18418.82,24,Autoliquidable,1,Viudo,0,0,0,0
+A,2,41,595.95,0.0,Consumo,Consumo General,2716.2,24,Prendaria,1,Soltero,0,1,0,0
+A,5,45,795.17,0.0,Ahorros Suficientes,Back-to-back,29996.48,48,Autoliquidable,1,Viudo,0,1,0,0
+A,1,46,756.39,0.0,Consumo,Digital,10950.47,84,Prendaria,1,Unión Libre,0,1,0,0
+A,2,29,778.41,0.0,Consumo,Sueldo,6804.1,48,Personal,1,Divorciado,0,0,0,0
+AAA,0,39,771.29,13883.22,Microcrédito,Vehicular Trabajo,18339.93,84,Prendaria,1,Divorciado,0,0,1,0
+AAA,0,33,757.88,13641.84,Microcrédito,Mi Negocio,8104.36,24,Personal,1,Unión Libre,0,1,0,0
+A,1,67,254.83,0.0,Consumo,Consumo General,13971.93,36,Personal,1,Viudo,0,1,0,1
+AAA,0,38,656.38,0.0,Consumo,Consumo General,11112.66,12,Personal,1,Unión Libre,0,0,0,1
+A,1,41,1177.81,21200.58,Microcrédito,Agrícola-Ganadero,11025.8,60,Prendaria,1,Viudo,0,1,0,0
+A,2,68,968.71,17436.78,Microcrédito,Vehicular Trabajo,6922.61,84,Prendaria,1,Unión Libre,0,0,1,0
+A,5,31,699.12,0.0,Ahorros Suficientes,Back-to-back,6489.71,24,Autoliquidable,1,Unión Libre,0,0,0,1
+AA,0,36,517.11,9307.98,Microcrédito,Vehicular Trabajo,5184.13,12,Personal,1,Soltero,0,1,1,0
+A,5,36,556.48,0.0,Inmobiliario,Vivienda,19605.73,24,Hipotecaria,1,Soltero,0,1,0,0
+Rechazado,27,34,878.36,15810.48,Microcrédito,Vehicular Trabajo,3513.93,60,Prendaria,1,Viudo,1,1,1,1
+Analista,11,36,1273.72,0.0,Ahorros Suficientes,Back-to-back,9925.29,12,Autoliquidable,1,Viudo,0,1,0,0
+Analista,13,56,431.14,0.0,Ahorros Suficientes,Back-to-back,20849.56,84,Autoliquidable,1,Divorciado,0,1,0,1
+AAA,0,21,770.11,0.0,Consumo,Sueldo,11059.1,12,Personal,1,Soltero,0,1,0,1
+AAA,0,71,465.37,0.0,Ahorros Suficientes,Back-to-back,7439.02,24,Autoliquidable,0,Unión Libre,0,1,0,0
+A,4,46,822.41,0.0,Consumo,Sueldo,12216.32,60,Personal,1,Casado,0,0,0,1
+A,4,33,1064.51,0.0,Consumo,Consumo General,13932.32,24,Personal,1,Unión Libre,1,1,0,1
+A,4,46,669.48,12050.64,Microcrédito,Agrícola-Ganadero,18146.41,24,Prendaria,0,Viudo,0,0,0,1
+A,4,41,1375.77,0.0,Inmobiliario,Vivienda,75223.67,48,Hipotecaria,0,Viudo,0,1,0,1
+Rechazado,17,63,625.11,0.0,Ahorros Suficientes,Back-to-back,8162.44,36,Autoliquidable,1,Unión Libre,1,0,0,1
+A,1,35,963.11,0.0,Consumo,Digital,5047.27,12,Prendaria,1,Soltero,0,1,0,0
+A,4,43,725.3,13055.4,Microcrédito,Mi Negocio,19254.8,12,Personal,1,Unión Libre,0,1,0,1
+A,1,37,806.46,14516.28,Microcrédito,Agrícola-Ganadero,3277.85,60,Personal,1,Soltero,0,1,0,0
+A,1,48,411.78,0.0,Consumo,Sueldo,10031.91,60,Prendaria,1,Soltero,0,0,0,0
+AAA,0,45,1327.43,0.0,Inmobiliario,Vivienda,30514.59,48,Hipotecaria,0,Casado,0,1,0,1
+A,2,49,747.06,0.0,Ahorros Suficientes,Back-to-back,16150.77,12,Autoliquidable,0,Divorciado,0,0,0,1
+A,1,47,726.39,0.0,Consumo,Consumo General,8295.7,60,Prendaria,1,Unión Libre,0,1,0,0
+AAA,0,44,525.33,0.0,Consumo,Consumo General,5858.14,24,Prendaria,1,Divorciado,0,0,0,0
+Analista,9,40,1146.51,0.0,Consumo,Digital,12348.01,36,Personal,1,Divorciado,0,0,0,0
+Analista,7,46,241.64,0.0,Inmobiliario,Vivienda,22502.86,12,Hipotecaria,1,Casado,0,0,0,0
+A,1,33,730.13,0.0,Inmobiliario,Vivienda,33314.16,24,Hipotecaria,1,Casado,0,1,0,0
+A,1,38,562.77,0.0,Inmobiliario,Vivienda,47851.59,36,Hipotecaria,1,Casado,0,1,0,0
+A,5,62,567.41,0.0,Consumo,Digital,6641.85,36,Personal,1,Soltero,0,0,0,1
+A,2,45,311.16,0.0,Inmobiliario,Vivienda,25502.83,48,Hipotecaria,0,Casado,0,1,0,0
+AAA,0,28,522.11,0.0,Consumo,Consumo General,1591.04,84,Personal,0,Viudo,1,1,0,1
+AAA,0,28,131.55,2367.9,Microcrédito,Agrícola-Ganadero,3421.46,36,Prendaria,1,Divorciado,0,0,0,0
+A,1,59,398.54,0.0,Inmobiliario,Vivienda,28654.97,24,Hipotecaria,1,Soltero,0,1,0,0
+AA,0,57,407.18,0.0,Ahorros Suficientes,Back-to-back,48704.93,84,Autoliquidable,1,Divorciado,0,0,0,0
+A,5,53,838.03,15084.54,Microcrédito,Mi Negocio,17746.91,12,Personal,0,Casado,0,0,0,0
+Rechazado,16,43,616.53,0.0,Ahorros Suficientes,Back-to-back,40210.64,84,Autoliquidable,0,Divorciado,0,0,0,1
+A,2,32,892.62,16067.16,Microcrédito,Vehicular Trabajo,3053.82,12,Prendaria,1,Divorciado,0,0,0,0
+AA,0,35,495.38,0.0,Inmobiliario,Vivienda,34837.41,24,Hipotecaria,1,Viudo,0,1,0,0
+Rechazado,17,38,1017.19,0.0,Ahorros Suficientes,Back-to-back,16748.97,12,Autoliquidable,1,Casado,0,1,0,1
+A,2,54,658.23,0.0,Inmobiliario,Vivienda,56696.31,48,Hipotecaria,1,Divorciado,0,1,0,0
+A,1,43,705.33,0.0,Inmobiliario,Vivienda,76050.41,12,Hipotecaria,1,Unión Libre,0,0,0,0
+Analista,8,28,669.19,12045.42,Microcrédito,Vehicular Trabajo,19288.15,36,Personal,1,Divorciado,0,0,0,1
+Analista,9,65,1059.41,0.0,Inmobiliario,Vivienda,62355.43,36,Hipotecaria,1,Viudo,0,0,0,0
+A,2,64,1730.49,0.0,Consumo,Sueldo,13542.82,24,Prendaria,1,Unión Libre,0,0,0,1
+Analista,14,32,1132.99,0.0,Consumo,Digital,13920.84,60,Personal,0,Viudo,0,0,0,1
+A,2,41,690.84,0.0,Inmobiliario,Vivienda,55505.1,84,Hipotecaria,1,Soltero,0,1,0,0
+A,5,66,474.1,0.0,Inmobiliario,Vivienda,58348.04,36,Hipotecaria,1,Divorciado,0,1,0,0
+Analista,8,27,535.58,9640.44,Microcrédito,Mi Negocio,8988.48,48,Personal,0,Divorciado,0,0,0,0
+A,4,33,736.5,0.0,Ahorros Suficientes,Back-to-back,27622.89,12,Autoliquidable,1,Divorciado,0,0,0,0
+Analista,7,64,464.41,0.0,Ahorros Suficientes,Back-to-back,39395.06,60,Autoliquidable,1,Casado,0,1,0,0
+A,2,36,597.81,0.0,Ahorros Suficientes,Back-to-back,22386.91,24,Autoliquidable,1,Viudo,0,1,0,0
+A,4,26,1255.85,0.0,Consumo,Sueldo,7974.05,84,Prendaria,1,Casado,1,0,0,1
+A,3,27,977.92,0.0,Inmobiliario,Vivienda,29601.64,24,Hipotecaria,1,Casado,0,0,0,0
+AAA,0,66,744.0,13392.0,Microcrédito,Agrícola-Ganadero,12614.21,12,Prendaria,1,Soltero,1,0,0,1
+A,1,32,669.34,12048.12,Microcrédito,Vehicular Trabajo,14230.73,48,Prendaria,1,Unión Libre,1,0,1,1
+A,4,25,629.25,0.0,Consumo,Sueldo,3673.2,84,Prendaria,0,Soltero,0,1,0,1
+A,1,37,1083.72,0.0,Consumo,Sueldo,2433.42,48,Prendaria,1,Casado,0,1,0,0
+A,1,69,789.09,0.0,Ahorros Suficientes,Back-to-back,41613.17,60,Autoliquidable,1,Viudo,0,0,0,0
+AA,0,29,1699.49,0.0,Ahorros Suficientes,Back-to-back,22778.45,24,Autoliquidable,1,Casado,0,0,0,0
+Rechazado,21,38,1199.57,0.0,Ahorros Suficientes,Back-to-back,31524.05,36,Autoliquidable,1,Divorciado,0,0,0,1
+Analista,8,38,526.06,9469.08,Microcrédito,Agrícola-Ganadero,7381.1,60,Personal,0,Divorciado,0,0,0,0
+Analista,10,38,629.98,0.0,Ahorros Suficientes,Back-to-back,34850.52,84,Autoliquidable,1,Casado,0,1,0,0
+A,4,61,646.94,0.0,Ahorros Suficientes,Back-to-back,16878.63,48,Autoliquidable,1,Viudo,0,0,0,0
+Analista,15,33,390.02,0.0,Ahorros Suficientes,Back-to-back,19779.1,60,Autoliquidable,1,Casado,0,0,0,0
+AAA,0,51,619.44,0.0,Ahorros Suficientes,Back-to-back,24110.5,36,Autoliquidable,1,Soltero,0,1,0,0
+A,4,52,1199.49,0.0,Ahorros Suficientes,Back-to-back,27141.92,84,Autoliquidable,1,Viudo,0,0,0,0
+A,3,44,687.98,12383.64,Microcrédito,Agrícola-Ganadero,5169.01,48,Prendaria,1,Unión Libre,0,1,0,1
+AAA,0,49,535.49,0.0,Ahorros Suficientes,Back-to-back,36346.98,48,Autoliquidable,1,Divorciado,0,0,0,0
+Analista,6,28,560.51,0.0,Consumo,Sueldo,9082.45,84,Personal,1,Unión Libre,0,0,0,1
+Analista,14,38,1086.56,19558.08,Microcrédito,Agrícola-Ganadero,4452.85,36,Prendaria,1,Viudo,0,1,0,1
+AAA,0,52,784.74,0.0,Inmobiliario,Vivienda,36937.54,48,Hipotecaria,1,Viudo,0,1,0,0
+AAA,0,46,625.5,0.0,Inmobiliario,Vivienda,69269.21,48,Hipotecaria,0,Viudo,0,1,0,1
+A,5,31,640.56,0.0,Consumo,Sueldo,3751.22,12,Personal,1,Unión Libre,0,0,0,0
+AAA,0,47,532.01,9576.18,Microcrédito,Mi Negocio,12805.38,24,Personal,0,Casado,0,0,0,0
+A,3,43,524.35,9438.3,Microcrédito,Agrícola-Ganadero,14289.83,36,Personal,1,Soltero,0,0,0,0
+Analista,8,41,632.09,11377.62,Microcrédito,Agrícola-Ganadero,3053.88,12,Prendaria,0,Soltero,0,1,0,0
+A,2,30,679.3,0.0,Ahorros Suficientes,Back-to-back,47102.79,24,Autoliquidable,1,Viudo,0,1,0,1
+A,2,51,510.17,0.0,Consumo,Digital,11700.97,84,Personal,1,Casado,0,0,0,0
+Analista,6,42,498.74,0.0,Consumo,Sueldo,8224.81,84,Prendaria,0,Unión Libre,0,0,0,1
+A,3,49,674.73,0.0,Consumo,Sueldo,12423.8,12,Prendaria,1,Divorciado,0,0,0,0
+AA,0,38,1079.56,19432.08,Microcrédito,Agrícola-Ganadero,4346.6,60,Prendaria,1,Viudo,0,0,0,0
+Analista,11,32,451.87,0.0,Ahorros Suficientes,Back-to-back,23511.25,84,Autoliquidable,1,Unión Libre,0,0,0,0
+A,3,46,558.14,10046.52,Microcrédito,Mi Negocio,6299.64,48,Personal,1,Divorciado,0,0,0,0
+A,1,51,395.99,0.0,Ahorros Suficientes,Back-to-back,17151.63,48,Autoliquidable,1,Unión Libre,0,1,0,0
+A,3,33,604.76,0.0,Ahorros Suficientes,Back-to-back,10999.93,36,Autoliquidable,1,Casado,0,0,0,0
+AAA,0,28,528.98,0.0,Inmobiliario,Vivienda,51126.42,60,Hipotecaria,0,Unión Libre,0,0,0,0
+AAA,0,56,486.39,8755.02,Microcrédito,Vehicular Trabajo,8722.13,60,Personal,1,Soltero,0,1,1,0
+A,1,66,748.94,0.0,Ahorros Suficientes,Back-to-back,39750.18,12,Autoliquidable,1,Viudo,0,0,0,0
+A,3,49,762.64,13727.52,Microcrédito,Agrícola-Ganadero,13615.24,36,Prendaria,1,Viudo,0,0,0,0
+A,3,31,454.12,0.0,Ahorros Suficientes,Back-to-back,49833.26,60,Autoliquidable,0,Divorciado,0,1,0,0
+AAA,0,52,269.77,0.0,Inmobiliario,Vivienda,34930.49,24,Hipotecaria,1,Viudo,0,0,0,0
+AA,0,25,432.59,0.0,Inmobiliario,Vivienda,22771.06,60,Hipotecaria,1,Casado,0,0,0,0
+AAA,0,30,548.79,9878.22,Microcrédito,Mi Negocio,15033.49,36,Prendaria,1,Casado,0,0,0,0
+AAA,0,36,724.05,0.0,Inmobiliario,Vivienda,29786.41,24,Hipotecaria,1,Casado,0,1,0,0
+Analista,8,52,695.55,12519.9,Microcrédito,Agrícola-Ganadero,1864.8,12,Prendaria,1,Unión Libre,0,0,0,0
+A,3,31,872.83,0.0,Ahorros Suficientes,Back-to-back,5578.09,12,Autoliquidable,1,Casado,0,0,0,0
+A,3,48,1115.95,0.0,Ahorros Suficientes,Back-to-back,22303.21,24,Autoliquidable,1,Viudo,0,0,0,0
+A,1,35,671.3,0.0,Ahorros Suficientes,Back-to-back,6147.31,12,Autoliquidable,1,Divorciado,0,1,0,0
+A,1,26,1537.97,0.0,Consumo,Consumo General,2663.36,60,Prendaria,1,Soltero,0,0,0,1
+Analista,7,46,429.49,0.0,Consumo,Digital,11584.43,60,Personal,1,Casado,0,0,0,0
+Rechazado,30,44,544.47,0.0,Ahorros Suficientes,Back-to-back,45470.97,36,Autoliquidable,1,Viudo,0,0,0,1
+Analista,7,51,689.37,0.0,Inmobiliario,Vivienda,51960.92,12,Hipotecaria,1,Viudo,0,1,0,0
+A,2,42,523.83,9428.94,Microcrédito,Vehicular Trabajo,5009.48,84,Personal,1,Soltero,0,0,1,0
+Analista,6,30,971.16,0.0,Consumo,Consumo General,538.8,48,Prendaria,1,Casado,0,1,0,0
+A,4,49,419.44,0.0,Inmobiliario,Vivienda,60952.13,84,Hipotecaria,1,Casado,0,1,0,0
+Analista,14,44,426.06,7669.08,Microcrédito,Agrícola-Ganadero,15968.73,84,Personal,1,Soltero,0,1,0,1
+A,1,28,208.02,3744.36,Microcrédito,Vehicular Trabajo,3830.8,36,Personal,1,Unión Libre,0,1,1,1
+AAA,0,48,741.32,0.0,Inmobiliario,Vivienda,53677.86,60,Hipotecaria,1,Casado,0,0,0,0
+Analista,9,28,829.7,0.0,Consumo,Sueldo,10485.83,84,Prendaria,0,Viudo,0,0,0,0
+A,2,69,2366.92,0.0,Ahorros Suficientes,Back-to-back,22169.06,60,Autoliquidable,1,Unión Libre,0,1,0,1
+A,4,53,864.35,0.0,Inmobiliario,Vivienda,54241.39,12,Hipotecaria,1,Viudo,0,1,0,1
+Analista,6,61,348.98,0.0,Consumo,Digital,12410.61,60,Personal,1,Unión Libre,0,1,0,0
+A,1,61,348.09,0.0,Ahorros Suficientes,Back-to-back,26188.71,48,Autoliquidable,0,Casado,0,0,0,0
+A,5,61,1141.65,0.0,Ahorros Suficientes,Back-to-back,31921.84,48,Autoliquidable,1,Casado,0,0,0,0
+A,3,67,264.42,0.0,Inmobiliario,Vivienda,41542.63,36,Hipotecaria,1,Viudo,0,0,0,0
+AA,0,72,2408.31,0.0,Inmobiliario,Vivienda,41756.93,48,Hipotecaria,1,Casado,0,1,0,0
+A,4,40,685.13,0.0,Consumo,Sueldo,1776.87,36,Prendaria,1,Viudo,0,0,0,0
+A,3,26,585.53,0.0,Consumo,Digital,13105.83,48,Prendaria,1,Viudo,0,1,0,1
+AAA,0,52,1410.92,0.0,Inmobiliario,Vivienda,55471.2,48,Hipotecaria,1,Unión Libre,0,1,0,0
+AAA,0,34,381.73,6871.14,Microcrédito,Agrícola-Ganadero,11435.17,36,Prendaria,1,Soltero,0,0,0,0
+A,1,43,1597.4,0.0,Consumo,Consumo General,14610.63,60,Personal,1,Viudo,0,1,0,0
+A,5,28,511.7,0.0,Consumo,Digital,6415.86,24,Personal,0,Divorciado,0,1,0,0
+A,4,69,849.53,15291.54,Microcrédito,Agrícola-Ganadero,18720.41,36,Prendaria,1,Soltero,0,1,0,0
+Analista,11,47,478.85,0.0,Ahorros Suficientes,Back-to-back,12564.68,60,Autoliquidable,0,Viudo,0,0,0,1
+AA,0,56,416.27,7492.86,Microcrédito,Mi Negocio,6248.7,48,Prendaria,1,Casado,0,0,0,0
+A,2,54,357.54,0.0,Inmobiliario,Vivienda,68335.72,36,Hipotecaria,1,Unión Libre,0,0,0,0
+Analista,7,36,442.24,0.0,Ahorros Suficientes,Back-to-back,43330.4,48,Autoliquidable,1,Unión Libre,0,0,0,0
+Analista,10,64,506.51,0.0,Inmobiliario,Vivienda,50874.63,60,Hipotecaria,1,Divorciado,0,1,0,0
+A,3,31,812.05,14616.9,Microcrédito,Vehicular Trabajo,5537.31,48,Personal,1,Divorciado,0,1,1,0
+Rechazado,20,34,724.46,0.0,Consumo,Sueldo,11298.22,84,Prendaria,0,Viudo,0,0,0,1
+Analista,8,48,606.68,0.0,Ahorros Suficientes,Back-to-back,48258.81,24,Autoliquidable,1,Casado,0,0,0,0
+Analista,8,34,1813.09,0.0,Inmobiliario,Vivienda,71530.52,48,Hipotecaria,0,Unión Libre,0,0,0,1
+A,1,34,952.22,0.0,Consumo,Digital,2590.25,84,Personal,1,Viudo,0,0,0,1
+A,3,47,264.96,0.0,Inmobiliario,Vivienda,55511.86,48,Hipotecaria,0,Divorciado,0,0,0,0
+AA,0,31,350.8,0.0,Ahorros Suficientes,Back-to-back,47729.91,84,Autoliquidable,1,Divorciado,0,0,0,0
+A,4,37,408.32,0.0,Consumo,Digital,1492.1,84,Prendaria,1,Viudo,0,1,0,0
+A,3,29,1126.44,0.0,Ahorros Suficientes,Back-to-back,48927.72,84,Autoliquidable,1,Soltero,0,0,0,0
+A,4,44,663.37,0.0,Ahorros Suficientes,Back-to-back,8735.06,36,Autoliquidable,1,Soltero,0,0,0,0
+A,2,36,478.48,0.0,Inmobiliario,Vivienda,66749.33,36,Hipotecaria,1,Soltero,0,1,0,0
+Analista,8,39,947.55,17055.9,Microcrédito,Mi Negocio,11092.16,60,Personal,1,Viudo,0,1,0,1
+A,1,28,502.08,0.0,Ahorros Suficientes,Back-to-back,31175.66,24,Autoliquidable,1,Soltero,0,0,0,0
+A,3,64,343.89,6190.02,Microcrédito,Mi Negocio,9761.85,36,Prendaria,1,Unión Libre,0,0,0,0
+Analista,6,51,594.0,0.0,Ahorros Suficientes,Back-to-back,45109.87,84,Autoliquidable,1,Soltero,0,1,0,0
+AAA,0,41,824.53,0.0,Ahorros Suficientes,Back-to-back,47289.16,60,Autoliquidable,0,Soltero,0,0,0,0
+A,1,50,737.93,0.0,Inmobiliario,Vivienda,44694.33,36,Hipotecaria,1,Viudo,0,0,0,0
+A,1,40,674.63,0.0,Ahorros Suficientes,Back-to-back,5779.34,48,Autoliquidable,0,Viudo,0,0,0,0
+A,4,37,675.11,0.0,Inmobiliario,Vivienda,79524.98,36,Hipotecaria,1,Unión Libre,0,0,0,1
+A,1,36,583.76,0.0,Inmobiliario,Vivienda,15526.37,84,Hipotecaria,1,Viudo,0,0,0,0
+A,3,50,711.58,0.0,Ahorros Suficientes,Back-to-back,41725.53,36,Autoliquidable,1,Soltero,0,1,0,0
+Analista,13,23,693.08,0.0,Inmobiliario,Vivienda,29235.3,24,Hipotecaria,1,Casado,0,1,0,0
+AAA,0,25,1133.13,0.0,Consumo,Digital,9871.94,36,Prendaria,1,Casado,0,1,0,1
+A,2,69,532.32,9581.76,Microcrédito,Mi Negocio,18282.93,36,Prendaria,1,Divorciado,0,0,0,0
+A,1,40,1375.66,0.0,Inmobiliario,Vivienda,49505.4,36,Hipotecaria,1,Casado,0,0,0,0
+A,5,25,252.94,0.0,Ahorros Suficientes,Back-to-back,48385.51,36,Autoliquidable,1,Divorciado,0,0,0,0
+A,4,34,363.69,0.0,Consumo,Sueldo,14461.95,24,Personal,1,Divorciado,1,1,0,1
+Rechazado,23,40,379.42,0.0,Inmobiliario,Vivienda,20869.69,48,Hipotecaria,1,Viudo,0,0,0,1
+Analista,8,33,805.29,0.0,Consumo,Sueldo,5844.49,84,Prendaria,0,Unión Libre,0,0,0,0
+A,2,33,878.04,0.0,Consumo,Digital,3890.42,12,Prendaria,1,Divorciado,0,0,0,0
+A,4,42,487.15,0.0,Consumo,Digital,12445.9,84,Prendaria,1,Casado,0,0,0,0
+Analista,8,51,438.7,7896.6,Microcrédito,Mi Negocio,18978.97,36,Prendaria,1,Soltero,0,0,0,0
+Analista,11,24,841.94,15154.92,Microcrédito,Agrícola-Ganadero,9619.23,84,Prendaria,1,Casado,0,1,0,0
+A,4,34,872.84,0.0,Ahorros Suficientes,Back-to-back,32918.63,48,Autoliquidable,1,Casado,0,0,0,0
+A,5,21,1143.45,0.0,Consumo,Digital,5872.68,48,Prendaria,1,Divorciado,0,0,0,0
+Analista,9,33,513.47,0.0,Consumo,Digital,5826.36,84,Prendaria,1,Divorciado,0,0,0,1
+A,4,60,743.89,13390.02,Microcrédito,Mi Negocio,19031.2,48,Personal,1,Divorciado,0,0,0,0
+A,5,34,749.95,0.0,Consumo,Consumo General,11908.52,24,Personal,1,Unión Libre,0,0,0,0
+A,1,36,774.93,0.0,Consumo,Digital,3503.78,24,Personal,0,Casado,0,0,0,0
+A,2,51,611.82,0.0,Consumo,Sueldo,12946.89,24,Personal,0,Casado,0,1,0,0
+Analista,7,43,715.77,0.0,Consumo,Digital,13063.49,24,Personal,0,Casado,0,0,0,0
+A,1,45,673.39,0.0,Inmobiliario,Vivienda,16025.77,36,Hipotecaria,1,Casado,0,0,0,1
+A,1,29,695.74,0.0,Consumo,Digital,1421.59,48,Prendaria,1,Viudo,0,1,0,0
+AA,0,36,901.4,0.0,Ahorros Suficientes,Back-to-back,25440.02,60,Autoliquidable,0,Soltero,0,0,0,1
+Analista,7,31,730.19,0.0,Inmobiliario,Vivienda,44772.76,12,Hipotecaria,1,Unión Libre,0,1,0,1
+Analista,7,45,502.97,0.0,Ahorros Suficientes,Back-to-back,21600.54,12,Autoliquidable,0,Viudo,0,1,0,0
+Analista,8,37,803.2,0.0,Consumo,Consumo General,5170.62,24,Personal,0,Viudo,0,1,0,0
+Analista,7,34,359.63,0.0,Inmobiliario,Vivienda,39758.79,60,Hipotecaria,1,Unión Libre,0,1,0,0
+A,1,52,608.58,0.0,Ahorros Suficientes,Back-to-back,5409.33,84,Autoliquidable,1,Viudo,0,1,0,0
+A,2,30,920.67,16572.06,Microcrédito,Agrícola-Ganadero,9579.54,24,Prendaria,1,Unión Libre,0,0,0,0
+A,1,39,632.96,0.0,Ahorros Suficientes,Back-to-back,21091.49,12,Autoliquidable,1,Viudo,0,1,0,0
+A,2,32,690.28,0.0,Inmobiliario,Vivienda,39329.57,24,Hipotecaria,1,Divorciado,0,1,0,0
+A,1,30,593.06,0.0,Consumo,Consumo General,12560.69,12,Prendaria,0,Viudo,0,0,0,1
+AAA,0,56,917.23,16510.14,Microcrédito,Vehicular Trabajo,2139.64,60,Prendaria,1,Divorciado,0,1,1,0
+A,4,20,1292.81,0.0,Inmobiliario,Vivienda,71784.48,48,Hipotecaria,1,Viudo,0,0,0,0
+A,4,32,459.24,0.0,Inmobiliario,Vivienda,54026.66,36,Hipotecaria,1,Soltero,0,0,0,0
+AAA,0,69,660.41,11887.38,Microcrédito,Mi Negocio,13477.99,24,Personal,1,Unión Libre,0,0,0,0
+Analista,9,45,1109.61,0.0,Inmobiliario,Vivienda,22467.55,36,Hipotecaria,0,Unión Libre,0,1,0,0
+AAA,0,51,384.98,0.0,Consumo,Digital,13971.72,84,Prendaria,0,Viudo,0,1,0,1
+AAA,0,45,864.75,0.0,Inmobiliario,Vivienda,74899.94,36,Hipotecaria,0,Divorciado,0,0,0,1
+Analista,8,27,1621.02,0.0,Ahorros Suficientes,Back-to-back,3944.48,84,Autoliquidable,1,Casado,0,1,0,0
+A,1,43,1090.55,0.0,Consumo,Digital,8192.0,48,Prendaria,0,Soltero,0,0,0,0
+Analista,11,29,908.37,0.0,Inmobiliario,Vivienda,35256.43,36,Hipotecaria,1,Casado,0,0,0,0
+Analista,6,42,943.04,0.0,Consumo,Consumo General,2755.91,60,Personal,1,Unión Libre,0,0,0,0
+A,5,41,809.76,0.0,Ahorros Suficientes,Back-to-back,33265.97,48,Autoliquidable,1,Divorciado,0,1,0,0
+Analista,6,39,812.95,0.0,Inmobiliario,Vivienda,29011.98,60,Hipotecaria,0,Viudo,0,0,0,1
+A,3,47,1980.79,0.0,Consumo,Sueldo,10334.16,60,Prendaria,1,Viudo,0,1,0,0
+A,5,36,863.87,0.0,Consumo,Consumo General,6231.32,60,Personal,1,Divorciado,0,1,0,1
+A,2,47,499.27,8986.86,Microcrédito,Mi Negocio,15519.06,36,Prendaria,1,Divorciado,0,1,0,0
+AAA,0,32,517.43,0.0,Ahorros Suficientes,Back-to-back,9196.89,48,Autoliquidable,1,Viudo,0,0,0,0
+Analista,9,38,739.37,0.0,Inmobiliario,Vivienda,19684.91,84,Hipotecaria,1,Casado,0,1,0,1
+Analista,6,69,304.63,0.0,Ahorros Suficientes,Back-to-back,46097.54,36,Autoliquidable,1,Soltero,0,1,0,0
+A,5,53,1809.61,0.0,Ahorros Suficientes,Back-to-back,35620.2,48,Autoliquidable,1,Unión Libre,1,0,0,1
+Analista,6,32,1391.68,0.0,Consumo,Sueldo,2992.16,60,Prendaria,1,Viudo,0,1,0,0
+A,5,45,1326.16,0.0,Consumo,Sueldo,12745.02,24,Prendaria,1,Divorciado,0,0,0,0
+Analista,10,56,291.42,0.0,Consumo,Sueldo,13122.6,84,Prendaria,1,Unión Libre,0,0,0,0
+AA,0,47,648.58,0.0,Consumo,Digital,9681.76,60,Personal,1,Casado,0,0,0,0
+AA,0,47,1157.32,0.0,Inmobiliario,Vivienda,62279.64,84,Hipotecaria,1,Divorciado,0,0,0,0
+A,2,39,466.83,0.0,Consumo,Consumo General,4211.54,24,Personal,1,Casado,0,0,0,0
+Analista,6,39,920.08,16561.44,Microcrédito,Vehicular Trabajo,10388.22,60,Prendaria,0,Soltero,0,0,1,0
+A,3,37,331.62,0.0,Inmobiliario,Vivienda,71176.05,84,Hipotecaria,1,Unión Libre,0,1,0,0
+AAA,0,44,571.55,0.0,Consumo,Sueldo,6912.02,36,Prendaria,1,Viudo,0,1,0,0
+A,5,25,804.21,0.0,Consumo,Sueldo,7195.27,12,Personal,0,Divorciado,0,0,0,0
+AA,0,35,495.53,0.0,Consumo,Digital,13031.63,12,Prendaria,0,Divorciado,1,1,0,1
+Rechazado,18,36,668.24,0.0,Consumo,Sueldo,13681.22,60,Personal,1,Unión Libre,0,0,0,1
+AAA,0,41,430.28,7745.04,Microcrédito,Mi Negocio,9559.94,36,Personal,1,Viudo,0,0,0,0
+A,1,31,813.78,0.0,Consumo,Consumo General,10760.51,48,Personal,0,Casado,0,1,0,0
+Analista,9,57,874.46,0.0,Ahorros Suficientes,Back-to-back,20734.09,36,Autoliquidable,1,Divorciado,0,1,0,0
+Analista,8,33,420.49,0.0,Inmobiliario,Vivienda,19284.27,12,Hipotecaria,1,Soltero,0,0,0,0
+A,1,62,1156.05,0.0,Inmobiliario,Vivienda,31379.73,84,Hipotecaria,1,Viudo,0,0,0,0
+A,2,44,1204.13,21674.34,Microcrédito,Agrícola-Ganadero,2548.54,84,Personal,1,Unión Libre,0,0,0,0
+Analista,7,67,1099.46,0.0,Ahorros Suficientes,Back-to-back,6883.11,84,Autoliquidable,1,Divorciado,0,1,0,0
+Analista,7,47,586.29,0.0,Ahorros Suficientes,Back-to-back,32352.92,36,Autoliquidable,1,Divorciado,0,1,0,0
+Analista,8,51,573.19,0.0,Consumo,Digital,10221.61,60,Prendaria,1,Unión Libre,0,0,0,1
+A,4,36,1323.26,23818.68,Microcrédito,Mi Negocio,7492.91,48,Personal,1,Divorciado,0,0,0,0
+A,2,37,306.02,5508.36,Microcrédito,Mi Negocio,6620.05,12,Personal,0,Casado,0,0,0,0
+A,5,31,571.48,10286.64,Microcrédito,Vehicular Trabajo,8157.68,24,Personal,1,Unión Libre,0,0,1,0
+A,2,42,530.0,9540.0,Microcrédito,Vehicular Trabajo,9315.79,48,Prendaria,1,Unión Libre,0,0,1,0
+A,2,40,658.54,0.0,Ahorros Suficientes,Back-to-back,30724.47,84,Autoliquidable,1,Casado,0,1,0,0
+Analista,13,65,586.2,10551.6,Microcrédito,Agrícola-Ganadero,19346.34,48,Personal,1,Casado,0,1,0,1
+AA,0,32,809.2,0.0,Ahorros Suficientes,Back-to-back,23353.16,36,Autoliquidable,1,Unión Libre,0,0,0,0
+A,4,53,255.69,0.0,Ahorros Suficientes,Back-to-back,48330.27,24,Autoliquidable,1,Unión Libre,0,1,0,0
+A,3,55,811.12,0.0,Inmobiliario,Vivienda,18391.69,48,Hipotecaria,1,Casado,0,0,0,0
+A,4,42,492.41,0.0,Consumo,Digital,12765.44,12,Prendaria,1,Unión Libre,0,1,0,1
+Analista,8,27,780.47,0.0,Inmobiliario,Vivienda,44205.75,60,Hipotecaria,1,Casado,0,0,0,0
+Analista,10,64,1215.7,0.0,Consumo,Consumo General,12342.2,36,Personal,1,Viudo,0,1,0,0
+A,2,31,805.92,0.0,Inmobiliario,Vivienda,30325.57,12,Hipotecaria,1,Viudo,0,0,0,0
+Analista,8,33,464.42,0.0,Inmobiliario,Vivienda,75503.68,84,Hipotecaria,1,Soltero,0,1,0,0
+AAA,0,52,1040.51,18729.18,Microcrédito,Mi Negocio,6450.71,48,Personal,1,Casado,0,1,0,0
+AA,0,57,606.29,0.0,Ahorros Suficientes,Back-to-back,30959.74,12,Autoliquidable,1,Viudo,0,1,0,1
+A,4,34,623.34,11220.12,Microcrédito,Vehicular Trabajo,18864.29,60,Prendaria,0,Casado,0,1,1,0
+Analista,6,48,324.47,5840.46,Microcrédito,Agrícola-Ganadero,3315.12,24,Prendaria,1,Divorciado,0,1,0,0
+A,4,54,255.56,0.0,Ahorros Suficientes,Back-to-back,3608.95,48,Autoliquidable,1,Unión Libre,0,0,0,0
+A,1,27,497.28,8951.04,Microcrédito,Vehicular Trabajo,3727.96,48,Personal,0,Soltero,0,0,1,0
+AA,0,47,400.46,0.0,Ahorros Suficientes,Back-to-back,9772.04,84,Autoliquidable,1,Casado,0,0,0,1
+A,5,42,370.07,0.0,Consumo,Digital,8389.19,60,Personal,1,Divorciado,1,0,0,1
+A,2,71,358.98,0.0,Consumo,Digital,6109.78,36,Prendaria,1,Viudo,0,1,0,0
+A,1,65,870.77,0.0,Consumo,Sueldo,3996.33,84,Personal,0,Divorciado,0,0,0,0
+AAA,0,55,419.75,7555.5,Microcrédito,Mi Negocio,7693.68,36,Personal,1,Divorciado,1,1,0,1
+Rechazado,24,33,385.23,0.0,Ahorros Suficientes,Back-to-back,31770.92,24,Autoliquidable,1,Viudo,0,0,0,1
+AAA,0,47,567.82,0.0,Consumo,Sueldo,3423.07,24,Personal,1,Viudo,0,0,0,0
+AAA,0,55,947.72,0.0,Ahorros Suficientes,Back-to-back,49461.57,60,Autoliquidable,1,Divorciado,0,0,0,0
+A,1,36,1073.15,19316.7,Microcrédito,Agrícola-Ganadero,7782.51,12,Prendaria,1,Soltero,0,1,0,0
+Analista,12,39,807.78,0.0,Ahorros Suficientes,Back-to-back,44529.58,84,Autoliquidable,1,Divorciado,0,0,0,1
+A,3,38,2313.46,0.0,Inmobiliario,Vivienda,78292.03,48,Hipotecaria,1,Viudo,0,0,0,0
+A,1,37,883.79,0.0,Inmobiliario,Vivienda,67074.63,84,Hipotecaria,1,Divorciado,0,1,0,0
+A,1,30,897.67,16158.06,Microcrédito,Vehicular Trabajo,6581.56,12,Personal,1,Viudo,1,1,1,1
+Analista,7,29,2281.16,0.0,Inmobiliario,Vivienda,43984.52,84,Hipotecaria,1,Divorciado,0,0,0,0
+A,5,55,572.45,0.0,Inmobiliario,Vivienda,44063.43,84,Hipotecaria,1,Viudo,0,1,0,0
+Rechazado,16,30,684.25,0.0,Ahorros Suficientes,Back-to-back,14090.49,12,Autoliquidable,1,Divorciado,0,1,0,1
+A,1,58,866.83,0.0,Inmobiliario,Vivienda,48350.59,84,Hipotecaria,0,Viudo,0,0,0,0
+AA,0,45,410.24,7384.32,Microcrédito,Vehicular Trabajo,13883.69,48,Personal,0,Soltero,0,0,1,1
+A,1,45,819.42,0.0,Inmobiliario,Vivienda,38539.79,60,Hipotecaria,0,Casado,0,0,0,1
+A,5,29,489.46,0.0,Ahorros Suficientes,Back-to-back,47466.76,36,Autoliquidable,1,Casado,0,0,0,0
+A,1,33,571.79,10292.22,Microcrédito,Vehicular Trabajo,7972.05,36,Prendaria,0,Soltero,0,1,1,0
+A,2,39,335.82,0.0,Consumo,Digital,3197.7,60,Prendaria,1,Soltero,0,0,0,0
+Rechazado,16,37,594.44,0.0,Inmobiliario,Vivienda,65372.69,84,Hipotecaria,0,Soltero,0,0,0,1
+AAA,0,23,1024.08,0.0,Inmobiliario,Vivienda,60108.74,48,Hipotecaria,0,Unión Libre,0,1,0,1
+A,1,46,446.65,0.0,Consumo,Sueldo,3003.52,84,Prendaria,0,Casado,0,0,0,0
+Analista,9,28,249.62,0.0,Inmobiliario,Vivienda,61120.13,60,Hipotecaria,1,Divorciado,0,1,0,0
+A,1,57,1863.63,33545.34,Microcrédito,Vehicular Trabajo,14481.71,84,Personal,1,Divorciado,0,0,1,0
+Analista,15,40,766.97,13805.46,Microcrédito,Mi Negocio,19717.52,24,Personal,1,Unión Libre,0,0,0,0
+AAA,0,54,737.71,0.0,Inmobiliario,Vivienda,51011.39,36,Hipotecaria,1,Soltero,0,1,0,0
+Analista,11,40,1346.53,24237.54,Microcrédito,Vehicular Trabajo,17800.68,12,Prendaria,1,Unión Libre,0,1,1,1
+AA,0,58,1220.77,0.0,Ahorros Suficientes,Back-to-back,38573.65,60,Autoliquidable,0,Viudo,0,1,0,1
+AAA,0,27,554.1,0.0,Consumo,Sueldo,7254.58,60,Prendaria,1,Divorciado,1,1,0,1
+Rechazado,23,40,729.49,13130.82,Microcrédito,Mi Negocio,9219.75,12,Personal,1,Unión Libre,1,0,0,1
+A,1,31,1203.33,21659.94,Microcrédito,Mi Negocio,7130.55,84,Personal,0,Divorciado,0,1,0,0
+Analista,7,59,952.87,0.0,Inmobiliario,Vivienda,69985.69,36,Hipotecaria,1,Unión Libre,0,0,0,0
+Analista,7,32,765.55,0.0,Inmobiliario,Vivienda,23136.07,36,Hipotecaria,1,Unión Libre,0,1,0,0
+A,1,59,418.71,7536.78,Microcrédito,Vehicular Trabajo,18890.53,24,Personal,1,Soltero,0,1,1,0
+A,5,44,965.75,0.0,Inmobiliario,Vivienda,69764.45,60,Hipotecaria,1,Unión Libre,0,1,0,1
+AAA,0,45,894.9,0.0,Consumo,Consumo General,14253.93,60,Prendaria,1,Soltero,0,1,0,0
+A,1,63,522.22,0.0,Ahorros Suficientes,Back-to-back,31096.37,12,Autoliquidable,1,Unión Libre,0,0,0,0
+A,1,47,563.56,0.0,Inmobiliario,Vivienda,56723.97,36,Hipotecaria,1,Unión Libre,0,0,0,0
+Analista,9,34,587.37,0.0,Inmobiliario,Vivienda,44480.37,84,Hipotecaria,1,Viudo,0,1,0,1
+A,1,25,1485.75,0.0,Ahorros Suficientes,Back-to-back,24470.43,24,Autoliquidable,1,Viudo,0,1,0,0
+Analista,6,25,634.49,0.0,Inmobiliario,Vivienda,70996.53,36,Hipotecaria,1,Casado,0,0,0,0
+A,2,30,637.18,0.0,Ahorros Suficientes,Back-to-back,6972.92,36,Autoliquidable,1,Divorciado,0,0,0,0
+A,5,41,882.5,0.0,Inmobiliario,Vivienda,30712.96,12,Hipotecaria,1,Soltero,0,1,0,0
+AAA,0,39,275.78,4964.04,Microcrédito,Mi Negocio,1961.5,48,Prendaria,1,Casado,0,0,0,0
+Analista,8,70,599.14,0.0,Inmobiliario,Vivienda,75693.85,84,Hipotecaria,1,Casado,0,1,0,0
+A,4,54,434.74,0.0,Ahorros Suficientes,Back-to-back,49800.49,48,Autoliquidable,1,Casado,0,0,0,0
+AAA,0,43,322.17,0.0,Ahorros Suficientes,Back-to-back,1647.23,48,Autoliquidable,1,Divorciado,0,1,0,0
+A,5,37,382.54,6885.72,Microcrédito,Vehicular Trabajo,7705.01,12,Prendaria,1,Casado,0,1,1,0
+Analista,7,38,310.19,0.0,Inmobiliario,Vivienda,49884.9,12,Hipotecaria,1,Viudo,0,1,0,0
+Analista,6,41,1250.49,0.0,Inmobiliario,Vivienda,64650.69,36,Hipotecaria,1,Divorciado,0,1,0,1
+Analista,8,43,1503.37,27060.66,Microcrédito,Agrícola-Ganadero,11511.24,12,Prendaria,1,Soltero,0,0,0,0
+AA,0,46,1073.01,0.0,Inmobiliario,Vivienda,68645.24,60,Hipotecaria,1,Unión Libre,0,0,0,0
+AAA,0,53,166.2,2991.6,Microcrédito,Mi Negocio,8484.17,36,Prendaria,0,Soltero,0,1,0,0
+Analista,8,26,992.74,0.0,Ahorros Suficientes,Back-to-back,25253.86,12,Autoliquidable,1,Casado,0,1,0,1
+Analista,7,46,1687.33,0.0,Ahorros Suficientes,Back-to-back,26206.97,24,Autoliquidable,1,Divorciado,0,1,0,0
+Analista,6,51,388.25,6988.5,Microcrédito,Agrícola-Ganadero,18696.01,36,Personal,1,Unión Libre,1,1,0,1
+A,1,37,713.69,0.0,Inmobiliario,Vivienda,53592.1,60,Hipotecaria,1,Unión Libre,0,1,0,0
+A,2,33,274.73,0.0,Ahorros Suficientes,Back-to-back,35582.62,36,Autoliquidable,1,Unión Libre,0,0,0,0
+AA,0,40,381.57,0.0,Inmobiliario,Vivienda,36530.57,12,Hipotecaria,1,Soltero,0,0,0,0
+AAA,0,21,648.19,0.0,Inmobiliario,Vivienda,66789.06,84,Hipotecaria,1,Unión Libre,0,1,0,0
+A,1,47,632.65,0.0,Ahorros Suficientes,Back-to-back,13643.76,84,Autoliquidable,1,Soltero,0,1,0,0
+A,2,67,600.74,10813.32,Microcrédito,Vehicular Trabajo,1975.75,48,Personal,1,Unión Libre,0,1,0,0
+A,2,41,197.92,0.0,Ahorros Suficientes,Back-to-back,7814.9,84,Autoliquidable,0,Unión Libre,0,1,0,0
+AA,0,43,1034.86,0.0,Consumo,Consumo General,774.59,36,Prendaria,1,Unión Libre,0,1,0,0
+A,1,34,989.43,0.0,Ahorros Suficientes,Back-to-back,25340.07,60,Autoliquidable,1,Casado,0,0,0,0
+Rechazado,17,64,355.26,6394.68,Microcrédito,Vehicular Trabajo,4939.49,36,Prendaria,0,Soltero,0,0,1,1
+A,3,33,735.3,13235.4,Microcrédito,Agrícola-Ganadero,18330.36,36,Prendaria,1,Divorciado,0,1,0,0
+Analista,7,42,1181.24,0.0,Ahorros Suficientes,Back-to-back,10017.08,24,Autoliquidable,1,Divorciado,0,1,0,0
+Analista,14,40,353.13,6356.34,Microcrédito,Agrícola-Ganadero,15652.31,84,Personal,1,Divorciado,0,1,0,1
+A,3,57,646.13,0.0,Inmobiliario,Vivienda,46187.22,60,Hipotecaria,1,Viudo,0,0,0,0
+AA,0,41,607.01,0.0,Inmobiliario,Vivienda,22921.82,84,Hipotecaria,1,Divorciado,0,1,0,0
+Analista,7,43,1322.71,0.0,Inmobiliario,Vivienda,77049.58,24,Hipotecaria,0,Viudo,0,1,0,1
+Rechazado,20,58,574.84,0.0,Consumo,Sueldo,13898.14,84,Prendaria,0,Divorciado,0,0,0,1
+A,2,28,304.42,5479.56,Microcrédito,Vehicular Trabajo,6151.52,60,Prendaria,1,Casado,0,0,1,0
+Analista,7,47,537.44,9673.92,Microcrédito,Mi Negocio,1964.54,60,Personal,1,Unión Libre,1,1,0,1
+A,2,28,1181.13,0.0,Consumo,Sueldo,5289.26,48,Personal,1,Soltero,0,1,0,0
+A,3,53,975.25,0.0,Consumo,Digital,14679.71,24,Prendaria,1,Casado,0,1,0,0
+A,4,31,604.31,0.0,Ahorros Suficientes,Back-to-back,32701.67,36,Autoliquidable,1,Viudo,0,0,0,0
+A,1,68,562.62,0.0,Consumo,Digital,8824.93,60,Personal,1,Soltero,0,0,0,0
+Analista,8,35,543.58,0.0,Ahorros Suficientes,Back-to-back,44171.13,24,Autoliquidable,1,Casado,1,0,0,0
+A,2,54,863.2,0.0,Ahorros Suficientes,Back-to-back,39504.05,24,Autoliquidable,1,Soltero,1,0,0,0
+Rechazado,29,36,667.08,0.0,Consumo,Consumo General,4826.69,60,Personal,1,Divorciado,1,1,0,1
+Analista,6,22,1204.35,0.0,Inmobiliario,Vivienda,44532.69,84,Hipotecaria,0,Divorciado,0,0,0,0
+A,2,67,2427.9,43702.2,Microcrédito,Vehicular Trabajo,9892.39,24,Personal,1,Viudo,0,1,1,0
+A,3,35,1285.06,0.0,Inmobiliario,Vivienda,61708.88,12,Hipotecaria,1,Viudo,0,0,0,0
+A,3,58,627.01,11286.18,Microcrédito,Mi Negocio,12608.14,84,Prendaria,0,Divorciado,0,1,0,0
+A,2,28,501.38,0.0,Inmobiliario,Vivienda,20637.96,84,Hipotecaria,1,Unión Libre,0,0,0,1
+A,4,39,541.66,0.0,Ahorros Suficientes,Back-to-back,16518.28,24,Autoliquidable,1,Casado,0,1,0,1
+A,5,68,423.33,7619.94,Microcrédito,Agrícola-Ganadero,15321.38,36,Prendaria,1,Viudo,0,1,0,0
+AA,0,48,782.25,0.0,Consumo,Sueldo,9978.41,84,Personal,0,Unión Libre,1,1,0,1
+A,1,46,708.53,0.0,Ahorros Suficientes,Back-to-back,15686.91,48,Autoliquidable,0,Soltero,0,0,0,0
+Analista,7,38,1753.67,0.0,Consumo,Digital,13783.89,36,Prendaria,1,Divorciado,0,0,0,0
+Analista,11,53,362.84,6531.12,Microcrédito,Agrícola-Ganadero,3910.53,84,Prendaria,1,Casado,0,0,0,1
+A,2,38,1009.41,0.0,Ahorros Suficientes,Back-to-back,37988.85,84,Autoliquidable,1,Unión Libre,0,1,0,0
+Analista,6,37,508.94,0.0,Consumo,Digital,6977.85,84,Prendaria,1,Casado,0,1,0,1
+Rechazado,18,49,635.7,0.0,Consumo,Consumo General,12517.22,60,Personal,1,Unión Libre,0,1,0,1
+A,1,23,1037.25,18670.5,Microcrédito,Agrícola-Ganadero,17235.23,48,Personal,0,Casado,0,1,0,0
+AAA,0,29,511.13,0.0,Ahorros Suficientes,Back-to-back,5001.61,60,Autoliquidable,1,Unión Libre,0,1,0,0
+A,1,35,297.92,0.0,Ahorros Suficientes,Back-to-back,7031.24,48,Autoliquidable,0,Soltero,0,1,0,0
+Analista,10,58,982.03,0.0,Ahorros Suficientes,Back-to-back,33802.0,36,Autoliquidable,1,Soltero,0,1,0,0
+Analista,7,31,631.3,0.0,Inmobiliario,Vivienda,68069.46,84,Hipotecaria,1,Viudo,0,1,0,0
+A,4,53,611.3,0.0,Consumo,Sueldo,5495.67,12,Personal,1,Soltero,0,0,0,0
+Analista,8,45,759.44,0.0,Ahorros Suficientes,Back-to-back,2070.88,48,Autoliquidable,1,Soltero,0,0,0,0
+AA,0,48,916.87,0.0,Ahorros Suficientes,Back-to-back,19035.82,48,Autoliquidable,0,Casado,0,0,0,0
+A,4,59,1905.69,0.0,Ahorros Suficientes,Back-to-back,4472.37,84,Autoliquidable,1,Viudo,0,1,0,0
+AAA,0,48,381.26,0.0,Inmobiliario,Vivienda,22711.16,60,Hipotecaria,1,Casado,0,1,0,0
+A,3,64,1393.45,25082.1,Microcrédito,Mi Negocio,15367.41,36,Prendaria,0,Casado,0,0,0,0
+AA,0,20,902.86,0.0,Ahorros Suficientes,Back-to-back,26830.71,24,Autoliquidable,1,Unión Libre,0,1,0,1
+A,1,67,595.8,10724.4,Microcrédito,Agrícola-Ganadero,4581.13,84,Personal,1,Divorciado,0,1,0,1
+A,3,44,236.53,0.0,Consumo,Consumo General,3488.18,12,Personal,0,Viudo,0,1,0,0
+Analista,8,24,569.86,10257.48,Microcrédito,Vehicular Trabajo,1840.5,48,Personal,1,Soltero,0,0,0,0
+Analista,8,34,456.65,8219.7,Microcrédito,Vehicular Trabajo,19876.19,24,Prendaria,1,Soltero,0,0,1,0
+Analista,6,41,659.0,11862.0,Microcrédito,Agrícola-Ganadero,17648.91,84,Personal,0,Divorciado,1,1,0,1
+A,2,31,1139.19,0.0,Consumo,Digital,14253.54,84,Personal,1,Divorciado,0,0,0,0
+Analista,8,49,301.69,0.0,Ahorros Suficientes,Back-to-back,2820.76,36,Autoliquidable,1,Viudo,1,1,0,0
+AA,0,57,1040.57,0.0,Inmobiliario,Vivienda,60260.05,48,Hipotecaria,0,Viudo,0,1,0,1
+A,3,48,581.57,10468.26,Microcrédito,Vehicular Trabajo,9996.86,24,Prendaria,0,Viudo,0,1,1,0
+A,2,60,425.98,0.0,Ahorros Suficientes,Back-to-back,45779.69,60,Autoliquidable,1,Casado,0,1,0,0
+A,4,47,385.6,6940.8,Microcrédito,Agrícola-Ganadero,5614.31,24,Prendaria,1,Viudo,0,1,0,0
+AAA,0,29,1346.77,0.0,Inmobiliario,Vivienda,21010.16,84,Hipotecaria,1,Viudo,0,0,0,0
+AAA,0,26,375.45,0.0,Inmobiliario,Vivienda,39515.92,60,Hipotecaria,1,Soltero,0,0,0,0
+Analista,12,38,702.24,12640.32,Microcrédito,Vehicular Trabajo,14761.8,60,Personal,1,Soltero,0,0,1,1
+A,2,47,841.76,0.0,Inmobiliario,Vivienda,77206.28,12,Hipotecaria,1,Divorciado,0,0,0,0
+A,4,57,1015.16,0.0,Consumo,Digital,14993.79,48,Personal,1,Casado,0,0,0,0
+A,1,57,621.94,0.0,Ahorros Suficientes,Back-to-back,45798.76,60,Autoliquidable,1,Casado,0,0,0,0
+A,2,23,997.65,0.0,Ahorros Suficientes,Back-to-back,23579.4,84,Autoliquidable,1,Divorciado,0,1,0,0
+AA,0,39,410.67,0.0,Inmobiliario,Vivienda,48333.08,48,Hipotecaria,1,Divorciado,0,0,0,0
+A,4,53,536.42,0.0,Inmobiliario,Vivienda,74431.48,36,Hipotecaria,1,Viudo,0,1,0,0
+AAA,0,37,1712.47,30824.46,Microcrédito,Vehicular Trabajo,3772.53,36,Prendaria,1,Soltero,0,0,1,0
+A,1,28,527.92,0.0,Inmobiliario,Vivienda,29951.21,60,Hipotecaria,1,Casado,0,0,0,0
+A,1,23,584.41,0.0,Inmobiliario,Vivienda,31726.24,48,Hipotecaria,0,Viudo,0,1,0,0
+A,3,37,1479.3,0.0,Ahorros Suficientes,Back-to-back,8827.57,36,Autoliquidable,1,Viudo,0,0,0,0
+A,2,69,308.02,0.0,Ahorros Suficientes,Back-to-back,9610.36,60,Autoliquidable,0,Unión Libre,0,0,0,0
+AAA,0,42,316.35,0.0,Consumo,Consumo General,14205.23,84,Personal,1,Soltero,0,1,0,0
+Rechazado,16,34,353.99,6371.82,Microcrédito,Vehicular Trabajo,5397.23,84,Personal,1,Viudo,0,1,1,1
+AA,0,74,431.59,0.0,Ahorros Suficientes,Back-to-back,18973.43,60,Autoliquidable,1,Unión Libre,0,0,0,0
+A,4,58,1153.41,0.0,Ahorros Suficientes,Back-to-back,33134.57,12,Autoliquidable,1,Unión Libre,0,1,0,1
+Analista,6,56,1770.78,0.0,Ahorros Suficientes,Back-to-back,1086.62,60,Autoliquidable,0,Unión Libre,0,0,0,0
+Analista,10,60,759.71,0.0,Inmobiliario,Vivienda,16114.27,84,Hipotecaria,1,Unión Libre,0,1,0,0
+A,5,26,1610.92,0.0,Consumo,Consumo General,8103.59,24,Personal,0,Casado,0,1,0,0
+A,3,30,803.16,0.0,Inmobiliario,Vivienda,32376.11,48,Hipotecaria,1,Divorciado,0,1,0,1
+A,3,41,655.48,0.0,Ahorros Suficientes,Back-to-back,28467.61,84,Autoliquidable,1,Viudo,0,0,0,0
+Analista,10,41,2586.27,0.0,Consumo,Consumo General,6376.54,48,Prendaria,1,Soltero,1,0,0,1
+A,4,45,581.23,10462.14,Microcrédito,Mi Negocio,10497.31,48,Prendaria,1,Soltero,0,0,0,0
+Analista,9,28,603.38,0.0,Consumo,Consumo General,3565.55,84,Prendaria,0,Soltero,0,1,0,0
+AA,0,34,1172.49,0.0,Inmobiliario,Vivienda,73455.26,60,Hipotecaria,1,Soltero,0,1,0,0
+A,5,40,1166.84,0.0,Inmobiliario,Vivienda,16017.78,24,Hipotecaria,1,Casado,0,1,0,0
+A,2,54,1068.24,0.0,Consumo,Sueldo,2855.53,24,Prendaria,1,Viudo,0,1,0,0
+AA,0,21,508.87,0.0,Inmobiliario,Vivienda,39950.0,84,Hipotecaria,1,Unión Libre,0,0,0,0
+Analista,13,21,1020.77,0.0,Inmobiliario,Vivienda,18490.27,48,Hipotecaria,1,Soltero,0,0,0,1
+A,3,56,453.26,0.0,Inmobiliario,Vivienda,54335.97,60,Hipotecaria,1,Soltero,0,1,0,0
+A,1,23,739.45,0.0,Inmobiliario,Vivienda,16925.67,36,Hipotecaria,1,Viudo,0,0,0,0
+AAA,0,64,258.06,0.0,Ahorros Suficientes,Back-to-back,11792.85,60,Autoliquidable,1,Viudo,0,1,0,0
+Analista,6,30,740.0,13320.0,Microcrédito,Vehicular Trabajo,12131.63,48,Personal,1,Viudo,0,1,1,0
+Analista,11,54,615.56,11080.08,Microcrédito,Vehicular Trabajo,2396.63,36,Personal,1,Divorciado,0,0,1,1
+AAA,0,33,944.23,0.0,Ahorros Suficientes,Back-to-back,16175.57,12,Autoliquidable,1,Casado,0,0,0,1
+A,4,59,146.97,0.0,Ahorros Suficientes,Back-to-back,18315.92,36,Autoliquidable,0,Divorciado,0,1,0,0
+A,3,42,729.18,13125.24,Microcrédito,Agrícola-Ganadero,9528.03,60,Prendaria,1,Soltero,0,0,0,0
+Analista,7,43,373.23,0.0,Inmobiliario,Vivienda,51024.29,60,Hipotecaria,1,Soltero,0,1,0,0
+Analista,8,58,687.21,0.0,Ahorros Suficientes,Back-to-back,1110.86,48,Autoliquidable,1,Divorciado,0,0,0,0
+AAA,0,35,665.21,11973.78,Microcrédito,Vehicular Trabajo,10900.99,84,Prendaria,0,Soltero,0,1,1,0
+Analista,14,36,662.06,0.0,Inmobiliario,Vivienda,32446.44,24,Hipotecaria,1,Divorciado,0,0,0,1
+A,1,37,957.52,0.0,Inmobiliario,Vivienda,42371.65,48,Hipotecaria,1,Viudo,0,0,0,0
+A,2,39,521.08,0.0,Inmobiliario,Vivienda,76374.45,84,Hipotecaria,1,Divorciado,0,0,0,0
+A,5,48,196.49,3536.82,Microcrédito,Agrícola-Ganadero,3032.47,36,Personal,0,Unión Libre,0,0,0,0
+Analista,10,34,621.95,0.0,Ahorros Suficientes,Back-to-back,40301.78,36,Autoliquidable,1,Divorciado,0,0,0,0
+AA,0,64,392.41,7063.38,Microcrédito,Agrícola-Ganadero,7092.64,84,Personal,0,Viudo,0,0,0,0
+A,2,41,1129.17,0.0,Ahorros Suficientes,Back-to-back,48451.9,36,Autoliquidable,1,Casado,0,1,0,0
+AA,0,32,329.55,5931.9,Microcrédito,Agrícola-Ganadero,8145.05,48,Prendaria,1,Viudo,0,0,0,0
+A,2,49,327.59,5896.62,Microcrédito,Vehicular Trabajo,19948.03,24,Personal,1,Unión Libre,0,1,1,0
+AA,0,48,305.86,5505.48,Microcrédito,Agrícola-Ganadero,16156.02,84,Personal,1,Viudo,0,1,0,0
+A,5,25,1001.19,0.0,Ahorros Suficientes,Back-to-back,7389.37,36,Autoliquidable,1,Viudo,0,0,0,0
+AAA,0,35,506.71,0.0,Ahorros Suficientes,Back-to-back,39559.3,12,Autoliquidable,1,Casado,0,1,0,0
+Analista,12,33,613.15,0.0,Ahorros Suficientes,Back-to-back,29321.08,60,Autoliquidable,1,Unión Libre,0,1,0,0
+A,3,38,184.72,0.0,Consumo,Sueldo,10673.7,60,Personal,0,Viudo,0,0,0,1
+AAA,0,58,604.55,0.0,Inmobiliario,Vivienda,25812.0,60,Hipotecaria,1,Casado,0,1,0,1
+AAA,0,52,828.19,0.0,Inmobiliario,Vivienda,77771.59,48,Hipotecaria,1,Viudo,0,1,0,0
+A,2,31,671.7,0.0,Inmobiliario,Vivienda,29430.07,84,Hipotecaria,1,Soltero,0,0,0,0
+AAA,0,42,357.97,6443.46,Microcrédito,Agrícola-Ganadero,8108.27,48,Personal,1,Unión Libre,0,0,0,0
+A,3,48,319.33,0.0,Ahorros Suficientes,Back-to-back,5675.19,48,Autoliquidable,1,Soltero,0,1,0,0
+AAA,0,40,298.73,0.0,Consumo,Digital,2554.29,36,Prendaria,1,Soltero,0,0,0,0
+A,5,26,439.55,0.0,Ahorros Suficientes,Back-to-back,17740.86,12,Autoliquidable,1,Casado,0,0,0,0
+Rechazado,16,53,672.12,0.0,Inmobiliario,Vivienda,19366.33,12,Hipotecaria,1,Viudo,0,0,0,1
+A,4,50,746.47,0.0,Consumo,Sueldo,9895.56,84,Personal,1,Soltero,0,0,0,0
+A,5,44,782.78,14090.04,Microcrédito,Vehicular Trabajo,4042.58,60,Prendaria,1,Casado,0,0,1,0
+A,2,64,552.92,0.0,Ahorros Suficientes,Back-to-back,31673.14,24,Autoliquidable,1,Casado,0,0,0,0
+Analista,15,49,385.85,0.0,Ahorros Suficientes,Back-to-back,1945.02,60,Autoliquidable,1,Viudo,0,0,0,0
+Rechazado,16,64,615.29,0.0,Ahorros Suficientes,Back-to-back,19747.37,84,Autoliquidable,1,Viudo,0,1,0,1
+AAA,0,40,220.1,0.0,Consumo,Digital,1975.4,60,Personal,1,Divorciado,0,0,0,0
+AA,0,47,1431.84,0.0,Ahorros Suficientes,Back-to-back,6140.77,84,Autoliquidable,1,Casado,0,1,0,0
+A,1,65,681.29,0.0,Inmobiliario,Vivienda,53803.1,60,Hipotecaria,1,Unión Libre,0,0,0,0
+AAA,0,32,785.19,0.0,Inmobiliario,Vivienda,37879.02,48,Hipotecaria,1,Soltero,0,0,0,0
+Rechazado,18,63,674.07,0.0,Consumo,Digital,2442.24,12,Personal,0,Divorciado,0,1,0,1
+A,1,52,885.41,0.0,Inmobiliario,Vivienda,60073.38,60,Hipotecaria,1,Casado,0,0,0,0
+A,3,31,1396.97,25145.46,Microcrédito,Vehicular Trabajo,8290.49,24,Prendaria,0,Unión Libre,0,0,1,0
+Analista,8,43,794.57,14302.26,Microcrédito,Agrícola-Ganadero,6487.86,24,Prendaria,1,Casado,0,1,0,0
+A,2,56,525.83,0.0,Consumo,Sueldo,14301.71,48,Personal,1,Unión Libre,0,0,0,1
+Analista,11,19,759.71,0.0,Ahorros Suficientes,Back-to-back,20752.15,48,Autoliquidable,1,Viudo,0,1,0,1
+Analista,7,71,339.66,0.0,Ahorros Suficientes,Back-to-back,8779.05,60,Autoliquidable,1,Viudo,0,0,0,1
+A,4,34,298.38,0.0,Inmobiliario,Vivienda,17125.18,24,Hipotecaria,1,Casado,1,0,0,1
+A,1,37,363.0,0.0,Ahorros Suficientes,Back-to-back,28499.7,48,Autoliquidable,0,Casado,0,1,0,0
+Analista,6,56,958.51,0.0,Consumo,Sueldo,11739.14,36,Personal,1,Soltero,0,1,0,0
+A,4,57,307.93,5542.74,Microcrédito,Agrícola-Ganadero,2945.91,84,Personal,1,Viudo,0,0,0,0
+A,2,30,1793.09,0.0,Ahorros Suficientes,Back-to-back,13509.35,12,Autoliquidable,1,Soltero,0,0,0,0
+A,3,38,624.05,11232.9,Microcrédito,Mi Negocio,16403.35,60,Prendaria,1,Soltero,0,0,0,0
+A,4,35,1415.98,0.0,Ahorros Suficientes,Back-to-back,8716.09,24,Autoliquidable,1,Unión Libre,0,0,0,0
+A,2,26,668.86,0.0,Consumo,Digital,5586.82,36,Personal,1,Casado,0,0,0,0
+Analista,7,50,948.44,0.0,Inmobiliario,Vivienda,52227.81,60,Hipotecaria,1,Divorciado,0,1,0,0
+A,2,58,273.34,4920.12,Microcrédito,Agrícola-Ganadero,18456.61,36,Personal,0,Soltero,0,1,0,0
+A,4,42,780.42,14047.56,Microcrédito,Mi Negocio,14516.5,24,Prendaria,1,Casado,0,0,0,0
+A,1,67,461.39,0.0,Inmobiliario,Vivienda,55807.83,48,Hipotecaria,0,Unión Libre,0,0,0,0
+A,1,32,398.78,0.0,Ahorros Suficientes,Back-to-back,26022.87,36,Autoliquidable,1,Soltero,0,0,0,0
+A,1,56,280.65,0.0,Ahorros Suficientes,Back-to-back,47537.58,36,Autoliquidable,1,Divorciado,0,1,0,0
+A,2,29,474.0,0.0,Ahorros Suficientes,Back-to-back,31924.61,84,Autoliquidable,1,Soltero,1,1,0,1
+A,5,51,1380.04,0.0,Ahorros Suficientes,Back-to-back,11282.58,48,Autoliquidable,1,Soltero,0,1,0,0
+A,1,23,281.45,0.0,Inmobiliario,Vivienda,35986.23,36,Hipotecaria,1,Viudo,0,1,0,0
+A,1,25,920.78,16574.04,Microcrédito,Vehicular Trabajo,17196.03,36,Personal,1,Unión Libre,0,1,1,1
+AA,0,49,313.71,0.0,Consumo,Consumo General,13976.78,24,Prendaria,0,Viudo,0,0,0,0
+A,5,49,1000.28,18005.04,Microcrédito,Vehicular Trabajo,18278.74,84,Prendaria,1,Viudo,0,0,0,0
+AAA,0,25,640.91,0.0,Consumo,Digital,5726.31,12,Prendaria,0,Divorciado,0,0,0,0
+Analista,14,49,836.22,0.0,Consumo,Sueldo,9571.26,84,Personal,1,Casado,0,0,0,1
+A,2,41,1536.48,0.0,Consumo,Consumo General,3594.61,12,Personal,0,Soltero,0,0,0,0
+A,1,56,645.39,0.0,Ahorros Suficientes,Back-to-back,959.7,84,Autoliquidable,1,Unión Libre,0,0,0,0
+A,3,42,834.97,0.0,Ahorros Suficientes,Back-to-back,34854.53,48,Autoliquidable,1,Soltero,0,1,0,1
+A,4,57,850.66,0.0,Consumo,Digital,12186.37,12,Prendaria,0,Viudo,0,1,0,0
+A,5,54,511.31,9203.58,Microcrédito,Agrícola-Ganadero,15695.75,24,Personal,1,Divorciado,0,1,0,1
+A,4,47,480.73,0.0,Consumo,Digital,9925.29,48,Prendaria,1,Unión Libre,0,0,0,0
+A,1,46,978.53,0.0,Ahorros Suficientes,Back-to-back,30995.76,48,Autoliquidable,0,Casado,0,1,0,0
+A,4,35,397.55,0.0,Consumo,Consumo General,11410.46,60,Prendaria,1,Soltero,0,1,0,0
+A,1,45,338.21,0.0,Inmobiliario,Vivienda,66419.98,24,Hipotecaria,0,Viudo,0,0,0,1
+A,2,48,535.86,9645.48,Microcrédito,Vehicular Trabajo,12418.98,84,Prendaria,1,Soltero,0,1,1,0
+Analista,7,29,612.98,0.0,Inmobiliario,Vivienda,28353.97,60,Hipotecaria,1,Soltero,0,1,0,0
+Rechazado,19,34,516.18,0.0,Inmobiliario,Vivienda,57001.04,24,Hipotecaria,1,Viudo,0,0,0,1
+A,3,28,288.81,5198.58,Microcrédito,Agrícola-Ganadero,13123.56,12,Personal,1,Soltero,1,1,0,1
+A,2,49,264.25,4756.5,Microcrédito,Agrícola-Ganadero,17355.47,60,Prendaria,1,Divorciado,0,0,0,0
+A,4,50,417.9,0.0,Ahorros Suficientes,Back-to-back,47745.42,12,Autoliquidable,1,Casado,0,1,0,1
+AAA,0,45,637.98,0.0,Consumo,Sueldo,3628.27,12,Prendaria,1,Soltero,0,1,0,0
+Analista,6,46,729.86,0.0,Ahorros Suficientes,Back-to-back,21466.97,48,Autoliquidable,1,Unión Libre,0,0,0,1
+A,1,49,302.63,5447.34,Microcrédito,Agrícola-Ganadero,2588.34,12,Personal,1,Unión Libre,0,0,0,0
+A,2,29,1056.83,0.0,Inmobiliario,Vivienda,40397.55,84,Hipotecaria,1,Casado,0,0,0,0
+Analista,6,58,808.64,0.0,Inmobiliario,Vivienda,60413.93,84,Hipotecaria,1,Soltero,0,0,0,0
+Analista,13,37,342.67,0.0,Consumo,Consumo General,1750.09,48,Personal,1,Casado,0,1,0,1
+A,5,38,548.57,0.0,Consumo,Sueldo,10158.15,84,Personal,0,Unión Libre,1,1,0,1
+A,1,50,820.76,0.0,Consumo,Consumo General,7697.99,36,Prendaria,0,Casado,0,0,0,0
+Analista,6,39,534.65,0.0,Inmobiliario,Vivienda,62640.83,12,Hipotecaria,1,Casado,0,0,0,0
+A,5,43,297.89,0.0,Inmobiliario,Vivienda,67462.01,36,Hipotecaria,1,Soltero,0,0,0,0
+AAA,0,32,795.99,0.0,Consumo,Sueldo,7100.37,36,Personal,1,Divorciado,0,1,0,0
+A,2,60,883.57,15904.26,Microcrédito,Agrícola-Ganadero,3988.89,12,Personal,1,Unión Libre,0,0,0,0
+Analista,8,47,815.61,0.0,Consumo,Consumo General,12950.99,12,Personal,1,Unión Libre,0,1,0,1
+A,3,38,834.03,0.0,Ahorros Suficientes,Back-to-back,46051.21,24,Autoliquidable,1,Divorciado,0,1,0,0
+A,4,26,936.05,0.0,Ahorros Suficientes,Back-to-back,11613.51,24,Autoliquidable,1,Soltero,0,1,0,0
+Analista,9,61,599.05,0.0,Inmobiliario,Vivienda,68689.8,60,Hipotecaria,1,Divorciado,0,1,0,0
+A,2,46,1007.63,0.0,Consumo,Consumo General,3736.18,60,Personal,1,Unión Libre,0,0,0,0
+A,2,53,399.95,0.0,Ahorros Suficientes,Back-to-back,43368.6,36,Autoliquidable,1,Soltero,0,1,0,0
+AAA,0,23,673.64,0.0,Ahorros Suficientes,Back-to-back,894.47,24,Autoliquidable,0,Unión Libre,0,0,0,0
+AAA,0,49,254.72,4584.96,Microcrédito,Agrícola-Ganadero,7997.2,48,Personal,0,Divorciado,0,0,0,0
+Analista,10,26,872.49,15704.82,Microcrédito,Mi Negocio,1121.18,48,Personal,1,Unión Libre,0,0,0,0
+AA,0,54,395.67,0.0,Consumo,Sueldo,521.2,84,Prendaria,1,Divorciado,0,0,0,0
+Analista,7,37,1123.82,0.0,Consumo,Consumo General,8182.31,24,Prendaria,1,Divorciado,0,1,0,0
+A,5,53,526.68,9480.24,Microcrédito,Vehicular Trabajo,6316.68,12,Personal,1,Soltero,0,1,1,0
+A,3,28,1132.79,0.0,Ahorros Suficientes,Back-to-back,35191.92,36,Autoliquidable,1,Unión Libre,0,1,0,0
+A,2,58,228.12,0.0,Consumo,Digital,2435.95,48,Personal,1,Soltero,0,0,0,0
+AA,0,45,842.87,0.0,Ahorros Suficientes,Back-to-back,33290.97,24,Autoliquidable,0,Soltero,0,0,0,0
+Analista,9,50,418.56,0.0,Inmobiliario,Vivienda,75192.73,48,Hipotecaria,1,Divorciado,0,1,0,0
+AAA,0,31,466.48,0.0,Inmobiliario,Vivienda,44429.26,24,Hipotecaria,1,Divorciado,0,1,0,1
+A,1,31,354.51,6381.18,Microcrédito,Vehicular Trabajo,3070.48,12,Personal,1,Casado,0,1,1,0
+A,2,45,233.68,0.0,Ahorros Suficientes,Back-to-back,6476.47,36,Autoliquidable,1,Divorciado,0,0,0,0
+A,1,51,1348.05,0.0,Ahorros Suficientes,Back-to-back,15761.23,36,Autoliquidable,1,Casado,0,0,0,0
+A,4,46,400.64,7211.52,Microcrédito,Vehicular Trabajo,6780.08,84,Personal,1,Soltero,0,1,1,0
+AA,0,41,694.26,12496.68,Microcrédito,Mi Negocio,14511.99,36,Prendaria,1,Divorciado,0,0,0,0
+A,4,38,650.12,0.0,Inmobiliario,Vivienda,68305.83,24,Hipotecaria,1,Divorciado,0,1,0,1
+Analista,6,58,453.73,0.0,Ahorros Suficientes,Back-to-back,28019.71,60,Autoliquidable,1,Viudo,0,0,0,0
+A,2,54,647.71,0.0,Consumo,Consumo General,2261.07,12,Personal,1,Viudo,0,0,0,0
+A,2,54,1226.33,0.0,Inmobiliario,Vivienda,59608.54,84,Hipotecaria,0,Viudo,0,1,0,1
+A,3,37,579.49,0.0,Inmobiliario,Vivienda,74632.86,12,Hipotecaria,0,Unión Libre,1,0,0,1
+A,2,68,1064.59,19162.62,Microcrédito,Vehicular Trabajo,9425.2,24,Personal,1,Soltero,0,1,1,0
+A,2,43,388.02,0.0,Consumo,Consumo General,14163.07,12,Personal,0,Divorciado,0,1,0,0
+A,2,37,471.37,0.0,Ahorros Suficientes,Back-to-back,25058.26,48,Autoliquidable,1,Viudo,0,1,0,0
+A,3,21,921.28,0.0,Inmobiliario,Vivienda,28956.55,24,Hipotecaria,1,Casado,0,0,0,0
+AAA,0,28,376.59,6778.62,Microcrédito,Mi Negocio,12668.02,60,Personal,1,Viudo,0,1,0,0
+AA,0,51,693.61,0.0,Ahorros Suficientes,Back-to-back,44197.54,48,Autoliquidable,1,Viudo,0,0,0,1
+A,2,47,1346.45,0.0,Ahorros Suficientes,Back-to-back,7293.18,24,Autoliquidable,0,Divorciado,0,1,0,0
+Analista,10,51,1556.16,28010.88,Microcrédito,Vehicular Trabajo,19887.66,60,Personal,1,Unión Libre,0,1,1,0
+Analista,6,38,1136.57,0.0,Ahorros Suficientes,Back-to-back,27453.63,48,Autoliquidable,1,Divorciado,0,0,0,0
+Analista,11,33,552.66,0.0,Inmobiliario,Vivienda,40244.78,24,Hipotecaria,0,Unión Libre,0,0,0,1
+AAA,0,44,329.38,5928.84,Microcrédito,Mi Negocio,18019.53,36,Personal,1,Unión Libre,0,0,0,0
+Analista,13,34,385.3,0.0,Inmobiliario,Vivienda,64844.74,24,Hipotecaria,1,Viudo,0,0,0,0
+A,3,55,1038.08,18685.44,Microcrédito,Vehicular Trabajo,5581.9,60,Personal,1,Soltero,0,0,1,0
+Analista,7,47,876.69,0.0,Ahorros Suficientes,Back-to-back,18062.83,24,Autoliquidable,0,Casado,0,0,0,0
+AAA,0,51,909.43,0.0,Inmobiliario,Vivienda,67403.66,84,Hipotecaria,1,Unión Libre,0,0,0,0
+AA,0,58,792.21,0.0,Consumo,Digital,10658.13,60,Personal,1,Unión Libre,0,0,0,0
+Analista,6,42,304.17,0.0,Ahorros Suficientes,Back-to-back,27335.17,24,Autoliquidable,1,Casado,0,1,0,0
+AAA,0,56,841.04,0.0,Consumo,Consumo General,9224.11,12,Prendaria,1,Soltero,1,0,0,1
+A,5,53,308.65,5555.7,Microcrédito,Mi Negocio,7474.42,24,Prendaria,1,Unión Libre,0,0,0,1
+AAA,0,25,400.08,7201.44,Microcrédito,Mi Negocio,17083.14,36,Personal,1,Casado,0,0,0,0
+A,1,27,588.73,0.0,Consumo,Sueldo,4875.59,24,Personal,0,Viudo,0,1,0,0
+A,4,45,807.07,0.0,Ahorros Suficientes,Back-to-back,32634.42,24,Autoliquidable,1,Viudo,0,1,0,0
+AA,0,38,1147.67,0.0,Inmobiliario,Vivienda,29510.42,60,Hipotecaria,1,Unión Libre,0,0,0,0
+Analista,13,38,854.0,0.0,Inmobiliario,Vivienda,62709.67,36,Hipotecaria,1,Viudo,0,0,0,1
+A,3,46,330.41,0.0,Ahorros Suficientes,Back-to-back,42612.47,60,Autoliquidable,1,Soltero,0,1,0,1
+AAA,0,54,940.02,0.0,Inmobiliario,Vivienda,74867.48,60,Hipotecaria,1,Unión Libre,0,1,0,0
+Analista,12,28,1478.36,0.0,Consumo,Sueldo,2539.33,84,Personal,0,Unión Libre,0,0,0,1
+AA,0,48,345.21,6213.78,Microcrédito,Vehicular Trabajo,17821.08,12,Prendaria,0,Divorciado,0,1,0,0
+A,3,44,1026.4,18475.2,Microcrédito,Mi Negocio,14170.35,36,Prendaria,0,Divorciado,0,1,0,0
+Analista,9,52,1446.76,0.0,Consumo,Sueldo,6854.19,48,Personal,1,Soltero,0,0,0,0
+Analista,15,46,1019.42,0.0,Ahorros Suficientes,Back-to-back,17885.94,48,Autoliquidable,1,Viudo,0,0,0,1
+A,4,34,717.34,12912.12,Microcrédito,Mi Negocio,9574.46,12,Prendaria,0,Viudo,0,1,0,1
+A,1,26,975.2,0.0,Consumo,Consumo General,5456.22,48,Personal,1,Divorciado,0,0,0,0
+Analista,9,58,377.92,0.0,Consumo,Sueldo,9113.44,60,Prendaria,0,Unión Libre,0,0,0,0
+Analista,10,53,908.1,16345.8,Microcrédito,Vehicular Trabajo,17905.31,24,Personal,1,Viudo,0,0,1,1
+Analista,9,45,654.06,11773.08,Microcrédito,Agrícola-Ganadero,14246.74,84,Prendaria,1,Casado,0,0,0,0
+A,2,39,834.95,15029.1,Microcrédito,Mi Negocio,1943.07,60,Prendaria,1,Divorciado,0,0,0,0
+A,1,27,476.69,0.0,Consumo,Sueldo,1770.61,84,Prendaria,1,Divorciado,0,1,0,0
+AAA,0,63,608.59,10954.62,Microcrédito,Mi Negocio,13125.62,12,Prendaria,1,Soltero,0,0,0,0
+Analista,8,66,283.98,0.0,Ahorros Suficientes,Back-to-back,23811.75,84,Autoliquidable,1,Divorciado,0,1,0,0
+Analista,8,23,527.73,0.0,Ahorros Suficientes,Back-to-back,9651.62,48,Autoliquidable,1,Unión Libre,0,0,0,0
+AAA,0,26,895.62,0.0,Consumo,Sueldo,6876.24,36,Personal,0,Viudo,0,0,0,0
+Analista,8,28,503.35,0.0,Consumo,Consumo General,11407.41,84,Personal,1,Unión Libre,0,1,0,1
+AA,0,30,729.18,0.0,Ahorros Suficientes,Back-to-back,48549.92,60,Autoliquidable,1,Divorciado,0,0,0,0
+Rechazado,20,39,2556.81,0.0,Ahorros Suficientes,Back-to-back,41011.06,48,Autoliquidable,1,Soltero,0,0,0,1
+A,4,38,1586.72,28560.96,Microcrédito,Agrícola-Ganadero,6678.19,48,Personal,1,Viudo,0,0,0,0
+AAA,0,32,566.44,10195.92,Microcrédito,Mi Negocio,19035.84,48,Personal,1,Unión Libre,0,1,0,0
+Analista,6,37,649.08,11683.44,Microcrédito,Mi Negocio,3397.53,48,Personal,1,Casado,0,0,0,0
+AA,0,47,329.44,5929.92,Microcrédito,Vehicular Trabajo,3809.69,60,Prendaria,1,Viudo,0,0,1,0
+A,4,29,758.22,0.0,Consumo,Sueldo,8567.28,60,Prendaria,1,Soltero,0,1,0,0
+Analista,13,66,355.12,0.0,Ahorros Suficientes,Back-to-back,45899.51,12,Autoliquidable,1,Unión Libre,0,0,0,0
+A,1,43,495.5,0.0,Ahorros Suficientes,Back-to-back,6069.68,24,Autoliquidable,1,Unión Libre,0,1,0,0
+A,4,45,437.63,0.0,Consumo,Consumo General,8658.91,12,Prendaria,1,Unión Libre,0,1,0,0
+AAA,0,37,509.71,0.0,Ahorros Suficientes,Back-to-back,13574.76,84,Autoliquidable,1,Divorciado,0,1,0,0
+AAA,0,69,1209.03,0.0,Ahorros Suficientes,Back-to-back,2354.55,36,Autoliquidable,1,Unión Libre,0,0,0,0
+Analista,6,34,869.06,0.0,Ahorros Suficientes,Back-to-back,2419.74,36,Autoliquidable,1,Unión Libre,0,0,0,0
+A,1,32,1229.66,0.0,Ahorros Suficientes,Back-to-back,46081.33,36,Autoliquidable,1,Soltero,0,0,0,1
+Analista,11,35,479.1,0.0,Inmobiliario,Vivienda,33222.53,48,Hipotecaria,1,Divorciado,0,0,0,0
+A,4,49,461.07,8299.26,Microcrédito,Mi Negocio,6709.13,84,Prendaria,1,Soltero,0,1,0,0
+Analista,8,74,511.26,0.0,Inmobiliario,Vivienda,62371.96,60,Hipotecaria,0,Divorciado,0,0,0,0
+A,5,25,1331.64,0.0,Ahorros Suficientes,Back-to-back,10963.83,48,Autoliquidable,1,Casado,0,1,0,0
+AAA,0,41,480.38,0.0,Inmobiliario,Vivienda,68366.13,60,Hipotecaria,1,Unión Libre,0,0,0,0
+Analista,7,53,665.76,0.0,Inmobiliario,Vivienda,61122.01,48,Hipotecaria,1,Soltero,0,1,0,0
+A,1,50,753.39,0.0,Consumo,Consumo General,3295.07,24,Personal,1,Unión Libre,0,1,0,0
+AAA,0,32,425.5,0.0,Consumo,Sueldo,10717.19,36,Prendaria,1,Viudo,0,1,0,0
+A,2,48,964.33,0.0,Ahorros Suficientes,Back-to-back,31952.79,12,Autoliquidable,0,Unión Libre,0,1,0,0
+AAA,0,39,704.11,0.0,Inmobiliario,Vivienda,46771.14,48,Hipotecaria,1,Casado,0,0,0,0
+A,1,65,856.37,0.0,Inmobiliario,Vivienda,37376.19,36,Hipotecaria,1,Viudo,0,1,0,0
+A,4,35,733.57,0.0,Inmobiliario,Vivienda,16784.28,12,Hipotecaria,1,Soltero,0,1,0,0
+Rechazado,23,34,1030.73,18553.14,Microcrédito,Mi Negocio,13300.22,84,Personal,1,Unión Libre,0,1,0,1
+Analista,9,35,1388.99,0.0,Consumo,Digital,629.02,24,Personal,1,Viudo,0,0,0,0
+Analista,13,62,526.25,9472.5,Microcrédito,Agrícola-Ganadero,12558.53,36,Prendaria,0,Soltero,0,1,0,1
+A,1,49,373.4,0.0,Inmobiliario,Vivienda,44834.87,24,Hipotecaria,1,Viudo,0,0,0,0
+A,5,41,605.8,0.0,Ahorros Suficientes,Back-to-back,29432.11,12,Autoliquidable,1,Unión Libre,0,1,0,0
+A,1,31,294.35,0.0,Inmobiliario,Vivienda,34400.94,12,Hipotecaria,1,Divorciado,0,0,0,0
+A,2,21,913.9,0.0,Inmobiliario,Vivienda,56638.66,36,Hipotecaria,1,Divorciado,0,1,0,0
+A,1,51,380.43,6847.74,Microcrédito,Mi Negocio,10828.58,24,Personal,0,Divorciado,0,1,0,0
+A,2,32,510.56,0.0,Ahorros Suficientes,Back-to-back,33196.25,84,Autoliquidable,0,Unión Libre,0,1,0,0
+AA,0,41,392.18,0.0,Ahorros Suficientes,Back-to-back,49874.72,36,Autoliquidable,0,Soltero,0,0,0,0
+A,2,39,1049.09,0.0,Ahorros Suficientes,Back-to-back,36968.24,60,Autoliquidable,1,Viudo,0,1,0,0
+Analista,10,28,701.26,12622.68,Microcrédito,Agrícola-Ganadero,14804.45,24,Prendaria,1,Unión Libre,0,1,0,0
+AAA,0,38,839.96,0.0,Inmobiliario,Vivienda,69952.25,84,Hipotecaria,0,Divorciado,0,0,0,0
+A,1,44,856.78,0.0,Inmobiliario,Vivienda,21344.2,24,Hipotecaria,1,Casado,0,1,0,0
+AAA,0,24,821.94,14794.92,Microcrédito,Vehicular Trabajo,18092.23,84,Personal,1,Unión Libre,0,0,1,1
+Analista,7,39,1882.55,0.0,Inmobiliario,Vivienda,42330.72,36,Hipotecaria,1,Casado,0,1,0,0
+A,1,36,540.88,0.0,Inmobiliario,Vivienda,45144.44,12,Hipotecaria,1,Unión Libre,0,0,0,0
+Analista,11,48,1709.31,0.0,Consumo,Sueldo,13396.68,60,Personal,0,Unión Libre,0,0,0,0
+A,1,36,1184.15,0.0,Inmobiliario,Vivienda,41851.97,24,Hipotecaria,0,Viudo,0,0,0,1
+Analista,12,37,513.22,0.0,Inmobiliario,Vivienda,41597.47,60,Hipotecaria,0,Casado,0,1,0,0
+A,3,54,541.47,9746.46,Microcrédito,Agrícola-Ganadero,17385.48,24,Personal,1,Viudo,0,1,0,0
+AAA,0,48,1184.35,0.0,Inmobiliario,Vivienda,56242.43,12,Hipotecaria,1,Casado,0,1,0,0
+Rechazado,17,38,834.43,15019.74,Microcrédito,Vehicular Trabajo,15525.19,48,Personal,1,Casado,0,0,1,1
+A,3,33,407.02,0.0,Ahorros Suficientes,Back-to-back,20467.98,48,Autoliquidable,0,Viudo,0,0,0,0
+A,2,27,950.8,17114.4,Microcrédito,Vehicular Trabajo,8088.93,12,Prendaria,1,Soltero,0,0,1,0
+Rechazado,16,59,238.66,4295.88,Microcrédito,Mi Negocio,13858.21,84,Personal,1,Unión Libre,0,1,0,1
+A,2,48,503.82,0.0,Inmobiliario,Vivienda,23380.5,48,Hipotecaria,0,Divorciado,0,1,0,0
+AAA,0,60,736.71,13260.78,Microcrédito,Mi Negocio,16653.03,36,Prendaria,1,Divorciado,0,0,0,0
+Analista,15,33,1599.53,0.0,Inmobiliario,Vivienda,43188.24,84,Hipotecaria,1,Unión Libre,0,1,0,0
+A,2,40,671.29,0.0,Ahorros Suficientes,Back-to-back,18282.92,24,Autoliquidable,1,Divorciado,0,1,0,0
+A,2,51,1798.89,0.0,Consumo,Consumo General,3752.66,24,Personal,1,Viudo,0,0,0,0
+AA,0,47,792.72,14268.96,Microcrédito,Mi Negocio,7965.24,84,Personal,0,Unión Libre,0,0,0,0
+A,3,61,922.73,0.0,Consumo,Digital,14922.86,84,Personal,1,Divorciado,0,1,0,0
+Analista,10,32,524.98,0.0,Consumo,Digital,2178.95,48,Prendaria,1,Soltero,0,0,0,0
+Analista,6,68,634.46,0.0,Ahorros Suficientes,Back-to-back,35242.48,24,Autoliquidable,1,Divorciado,0,1,0,0
+AAA,0,39,820.41,0.0,Inmobiliario,Vivienda,42356.64,12,Hipotecaria,1,Soltero,0,1,0,0
+A,5,23,1517.38,27312.84,Microcrédito,Agrícola-Ganadero,16782.4,12,Personal,1,Divorciado,0,0,0,1
+Analista,10,26,1136.04,0.0,Ahorros Suficientes,Back-to-back,10333.01,24,Autoliquidable,1,Soltero,0,0,0,0
+A,2,38,564.58,10162.44,Microcrédito,Agrícola-Ganadero,14365.3,36,Personal,1,Unión Libre,0,0,0,1
+A,2,48,561.58,10108.44,Microcrédito,Vehicular Trabajo,18729.36,36,Personal,0,Viudo,0,0,1,1
+Analista,10,31,551.79,0.0,Consumo,Digital,10200.82,24,Personal,1,Soltero,0,1,0,0
+A,2,32,516.13,0.0,Consumo,Sueldo,9842.88,48,Prendaria,1,Soltero,0,0,0,0
+A,4,44,636.12,0.0,Consumo,Consumo General,13175.04,36,Prendaria,1,Soltero,0,1,0,0
+A,3,26,652.76,0.0,Ahorros Suficientes,Back-to-back,37057.74,12,Autoliquidable,1,Divorciado,0,0,0,0
+A,2,37,485.36,0.0,Consumo,Consumo General,10118.65,24,Prendaria,1,Soltero,0,0,0,0
+A,1,35,688.81,0.0,Inmobiliario,Vivienda,72100.91,12,Hipotecaria,0,Viudo,0,1,0,1
+AAA,0,39,1013.32,18239.76,Microcrédito,Mi Negocio,8614.77,48,Prendaria,0,Divorciado,0,1,0,0
+Analista,6,51,553.02,0.0,Ahorros Suficientes,Back-to-back,32617.9,24,Autoliquidable,1,Viudo,0,1,0,0
+Analista,7,31,1292.48,23264.64,Microcrédito,Mi Negocio,8904.53,60,Prendaria,0,Soltero,0,1,0,0
+A,2,36,777.9,14002.2,Microcrédito,Vehicular Trabajo,8215.26,36,Personal,0,Viudo,0,1,0,0
+A,5,38,414.52,0.0,Ahorros Suficientes,Back-to-back,46059.7,12,Autoliquidable,1,Casado,0,1,0,0
+AAA,0,35,901.56,0.0,Consumo,Consumo General,4293.39,36,Personal,1,Viudo,0,0,0,0
+A,2,55,1084.87,19527.66,Microcrédito,Vehicular Trabajo,17589.73,60,Personal,1,Unión Libre,0,0,0,0
+Rechazado,22,24,863.57,0.0,Ahorros Suficientes,Back-to-back,17614.6,84,Autoliquidable,1,Casado,0,0,0,1
+Analista,10,69,1039.48,0.0,Consumo,Consumo General,9829.28,24,Prendaria,1,Casado,0,1,0,0
+A,2,39,1660.39,0.0,Consumo,Sueldo,5149.19,36,Prendaria,1,Casado,0,1,0,1
+A,4,56,1057.88,0.0,Ahorros Suficientes,Back-to-back,20462.21,24,Autoliquidable,0,Casado,0,1,0,1
+A,3,34,872.54,0.0,Ahorros Suficientes,Back-to-back,4856.98,48,Autoliquidable,0,Viudo,0,0,0,0
+Analista,10,32,451.99,0.0,Ahorros Suficientes,Back-to-back,37389.33,12,Autoliquidable,0,Soltero,0,1,0,0
+Rechazado,16,28,1007.37,0.0,Consumo,Digital,8461.93,12,Prendaria,0,Viudo,0,0,0,1
+A,4,44,1497.62,26957.16,Microcrédito,Vehicular Trabajo,13758.01,36,Prendaria,1,Unión Libre,0,0,0,0
+Analista,14,40,1052.22,0.0,Ahorros Suficientes,Back-to-back,16932.64,60,Autoliquidable,1,Casado,0,1,0,0
+AA,0,32,1137.34,0.0,Ahorros Suficientes,Back-to-back,6144.16,84,Autoliquidable,1,Divorciado,0,1,0,0
+AAA,0,38,782.68,0.0,Inmobiliario,Vivienda,68942.45,36,Hipotecaria,1,Divorciado,0,1,0,0
+A,3,23,389.39,0.0,Consumo,Consumo General,13504.72,48,Personal,1,Divorciado,0,0,0,0
+A,2,54,1729.71,0.0,Consumo,Sueldo,9357.35,24,Personal,1,Viudo,0,1,0,0
+AA,0,43,451.9,8134.2,Microcrédito,Agrícola-Ganadero,16666.53,24,Prendaria,1,Viudo,0,1,0,0
+Analista,9,30,665.31,0.0,Consumo,Digital,12643.26,60,Personal,1,Viudo,1,0,0,1
+A,5,48,703.2,0.0,Ahorros Suficientes,Back-to-back,33093.61,60,Autoliquidable,1,Viudo,0,0,0,0
+Analista,7,34,717.82,0.0,Consumo,Digital,11175.1,60,Prendaria,1,Viudo,0,0,0,0
+Analista,6,46,590.49,10628.82,Microcrédito,Vehicular Trabajo,11992.53,84,Personal,1,Viudo,0,1,1,1
+Analista,8,29,680.62,0.0,Inmobiliario,Vivienda,47767.16,48,Hipotecaria,1,Unión Libre,0,1,0,0
+Analista,6,46,597.15,10748.7,Microcrédito,Agrícola-Ganadero,8559.53,36,Prendaria,0,Unión Libre,0,0,0,0
+A,1,22,429.89,7738.02,Microcrédito,Agrícola-Ganadero,12447.96,84,Prendaria,0,Casado,0,1,0,0
+AAA,0,42,901.63,0.0,Inmobiliario,Vivienda,61271.83,60,Hipotecaria,1,Unión Libre,0,1,0,0
+A,2,33,2651.79,47732.22,Microcrédito,Vehicular Trabajo,14573.31,84,Prendaria,0,Casado,0,1,1,0
+Analista,10,69,1351.9,24334.2,Microcrédito,Vehicular Trabajo,11307.34,84,Prendaria,1,Casado,1,0,1,1
+A,1,40,191.73,0.0,Ahorros Suficientes,Back-to-back,29348.91,84,Autoliquidable,1,Divorciado,0,1,0,0
+AAA,0,35,787.83,0.0,Inmobiliario,Vivienda,72036.02,48,Hipotecaria,1,Unión Libre,0,0,0,0
+A,2,54,416.15,0.0,Consumo,Consumo General,6022.62,12,Personal,0,Unión Libre,1,0,0,1
+Analista,9,31,1887.53,0.0,Inmobiliario,Vivienda,59420.37,24,Hipotecaria,0,Casado,0,1,0,0
+A,1,42,400.46,7208.28,Microcrédito,Vehicular Trabajo,1613.82,48,Personal,1,Divorciado,0,0,0,0
+A,3,26,733.67,13206.06,Microcrédito,Vehicular Trabajo,13295.27,48,Personal,1,Unión Libre,0,0,1,0
+A,1,42,423.25,0.0,Consumo,Sueldo,6119.54,84,Prendaria,1,Divorciado,0,0,0,0
+A,2,45,1472.8,0.0,Consumo,Digital,4144.45,60,Prendaria,1,Soltero,0,0,0,0
+Analista,7,49,886.28,15953.04,Microcrédito,Vehicular Trabajo,19321.51,36,Prendaria,1,Divorciado,0,0,0,0
+A,5,35,398.14,7166.52,Microcrédito,Mi Negocio,14966.51,12,Prendaria,1,Soltero,0,1,0,1
+A,2,35,1230.28,0.0,Inmobiliario,Vivienda,23454.32,60,Hipotecaria,1,Divorciado,0,1,0,0
+AAA,0,44,636.5,0.0,Inmobiliario,Vivienda,45311.54,24,Hipotecaria,0,Soltero,0,1,0,1
+AAA,0,41,787.71,0.0,Consumo,Digital,9426.33,84,Prendaria,1,Divorciado,0,1,0,0
+A,5,58,271.25,0.0,Inmobiliario,Vivienda,19737.25,84,Hipotecaria,1,Unión Libre,0,1,0,0
+A,2,40,337.74,6079.32,Microcrédito,Vehicular Trabajo,2295.35,60,Personal,0,Casado,0,0,1,0
+A,2,40,1373.98,0.0,Ahorros Suficientes,Back-to-back,5051.3,24,Autoliquidable,0,Unión Libre,0,0,0,0
+AA,0,48,1641.88,0.0,Inmobiliario,Vivienda,38451.86,24,Hipotecaria,1,Divorciado,0,0,0,0
+A,2,44,739.73,0.0,Ahorros Suficientes,Back-to-back,49833.24,84,Autoliquidable,1,Unión Libre,0,0,0,1
+A,4,48,1111.53,0.0,Ahorros Suficientes,Back-to-back,12397.22,84,Autoliquidable,0,Divorciado,0,0,0,0
+A,4,30,595.35,10716.3,Microcrédito,Mi Negocio,13968.48,36,Prendaria,1,Unión Libre,0,1,0,0
+A,3,40,374.4,0.0,Ahorros Suficientes,Back-to-back,13201.23,84,Autoliquidable,1,Soltero,0,1,0,0
+A,1,46,850.41,0.0,Inmobiliario,Vivienda,48430.09,60,Hipotecaria,0,Unión Libre,0,1,0,0
+A,1,69,884.37,0.0,Inmobiliario,Vivienda,73388.3,24,Hipotecaria,1,Soltero,0,1,0,0
+Analista,13,38,2481.87,0.0,Consumo,Consumo General,14588.62,60,Personal,1,Soltero,0,0,0,1
+A,4,53,867.72,15618.96,Microcrédito,Vehicular Trabajo,9059.98,12,Personal,1,Casado,0,1,1,0
+A,5,34,609.43,0.0,Consumo,Digital,10447.63,12,Prendaria,0,Viudo,0,0,0,0
+A,3,32,389.57,0.0,Consumo,Consumo General,1286.89,36,Personal,1,Soltero,0,1,0,0
+A,4,25,822.97,0.0,Inmobiliario,Vivienda,41496.13,48,Hipotecaria,1,Casado,0,1,0,0
+Analista,13,32,819.83,0.0,Inmobiliario,Vivienda,16097.91,84,Hipotecaria,1,Viudo,0,0,0,1
+A,4,38,682.59,0.0,Consumo,Digital,8991.32,84,Personal,1,Soltero,0,0,0,0
+Analista,8,23,887.49,0.0,Consumo,Sueldo,11909.93,36,Personal,1,Unión Libre,0,0,0,1
+AAA,0,42,941.71,0.0,Ahorros Suficientes,Back-to-back,20058.11,84,Autoliquidable,0,Viudo,0,1,0,1
+A,4,33,375.96,6767.28,Microcrédito,Mi Negocio,15188.32,60,Prendaria,1,Casado,0,0,0,0
+AAA,0,40,1146.4,0.0,Inmobiliario,Vivienda,59023.79,84,Hipotecaria,0,Casado,0,0,0,0
+Rechazado,26,42,551.06,9919.08,Microcrédito,Mi Negocio,1793.69,60,Prendaria,1,Soltero,0,0,0,1
+A,5,25,726.07,0.0,Inmobiliario,Vivienda,28653.44,84,Hipotecaria,1,Soltero,0,1,0,0
+A,3,40,340.92,6136.56,Microcrédito,Agrícola-Ganadero,18206.93,60,Personal,1,Divorciado,0,1,0,1
+A,2,29,293.3,0.0,Inmobiliario,Vivienda,27631.2,24,Hipotecaria,1,Casado,1,0,0,1
+Analista,13,25,706.13,0.0,Consumo,Digital,7188.35,60,Personal,1,Unión Libre,0,0,0,1
+A,2,20,1184.17,0.0,Inmobiliario,Vivienda,21383.16,84,Hipotecaria,1,Soltero,0,1,0,0
+AA,0,44,1330.32,0.0,Inmobiliario,Vivienda,23333.98,84,Hipotecaria,1,Divorciado,0,1,0,0
+A,1,50,418.94,0.0,Consumo,Consumo General,5107.9,48,Prendaria,0,Divorciado,0,0,0,0
+A,4,32,299.23,5386.14,Microcrédito,Vehicular Trabajo,11770.38,36,Prendaria,1,Divorciado,0,1,0,0
+Rechazado,24,34,1200.29,21605.22,Microcrédito,Mi Negocio,14531.78,84,Prendaria,1,Divorciado,0,1,0,1
+A,3,50,486.07,8749.26,Microcrédito,Vehicular Trabajo,14926.48,48,Prendaria,1,Divorciado,0,1,1,0
+A,2,53,1224.65,0.0,Ahorros Suficientes,Back-to-back,27807.76,24,Autoliquidable,1,Divorciado,0,0,0,0
+AA,0,26,429.07,0.0,Inmobiliario,Vivienda,70816.39,24,Hipotecaria,1,Soltero,0,1,0,0
+Rechazado,28,43,855.23,0.0,Inmobiliario,Vivienda,62680.4,84,Hipotecaria,1,Casado,0,1,0,1
+AA,0,71,191.21,0.0,Consumo,Digital,9658.58,60,Prendaria,1,Soltero,0,0,0,0
+A,5,70,497.26,0.0,Consumo,Digital,4278.94,60,Prendaria,1,Casado,0,1,0,0
+A,2,63,369.84,0.0,Inmobiliario,Vivienda,40512.39,60,Hipotecaria,1,Casado,0,0,0,0
+Analista,6,43,330.81,5954.58,Microcrédito,Agrícola-Ganadero,10521.34,12,Prendaria,1,Divorciado,0,1,0,0
+Analista,6,25,787.88,14181.84,Microcrédito,Vehicular Trabajo,13999.07,60,Personal,1,Soltero,0,0,1,0
+AAA,0,50,583.43,10501.74,Microcrédito,Vehicular Trabajo,14908.09,36,Personal,1,Casado,0,0,1,1
+A,2,35,2254.65,40583.7,Microcrédito,Mi Negocio,6022.79,24,Personal,1,Viudo,0,1,0,0
+AAA,0,23,916.23,0.0,Inmobiliario,Vivienda,40226.05,48,Hipotecaria,1,Unión Libre,0,0,0,0
+AAA,0,37,707.36,0.0,Inmobiliario,Vivienda,21709.63,60,Hipotecaria,1,Soltero,0,0,0,0
+A,4,57,1062.21,0.0,Inmobiliario,Vivienda,52611.04,60,Hipotecaria,1,Divorciado,0,1,0,0
+A,1,35,729.53,0.0,Inmobiliario,Vivienda,53199.12,12,Hipotecaria,0,Viudo,0,1,0,0
+A,4,32,442.44,7963.92,Microcrédito,Vehicular Trabajo,8711.0,36,Prendaria,1,Viudo,0,1,1,0
+Analista,6,31,390.29,0.0,Consumo,Digital,13289.5,48,Personal,1,Unión Libre,0,1,0,1
+AA,0,34,1236.19,0.0,Inmobiliario,Vivienda,28748.61,24,Hipotecaria,1,Unión Libre,0,1,0,0
+A,2,34,545.6,0.0,Consumo,Digital,3840.02,36,Personal,1,Unión Libre,0,0,0,0
+Analista,13,43,1248.4,0.0,Ahorros Suficientes,Back-to-back,10929.85,24,Autoliquidable,1,Viudo,1,0,0,1
+A,5,29,1179.94,0.0,Consumo,Consumo General,1125.59,60,Personal,0,Viudo,0,1,0,0
+Analista,9,34,524.83,0.0,Consumo,Digital,2629.54,24,Prendaria,1,Unión Libre,0,1,0,0
+AAA,0,60,553.96,0.0,Ahorros Suficientes,Back-to-back,30168.2,60,Autoliquidable,1,Unión Libre,0,0,0,0
+A,1,67,879.94,0.0,Consumo,Consumo General,7013.45,48,Prendaria,1,Divorciado,0,0,0,0
+A,1,30,730.53,13149.54,Microcrédito,Vehicular Trabajo,16588.61,24,Prendaria,0,Viudo,0,0,1,0
+A,1,44,672.57,0.0,Ahorros Suficientes,Back-to-back,30028.4,12,Autoliquidable,1,Divorciado,0,1,0,0
+A,2,46,320.39,5767.02,Microcrédito,Mi Negocio,1314.69,60,Prendaria,1,Viudo,0,1,0,0
+Analista,6,52,591.12,0.0,Consumo,Consumo General,7400.1,60,Personal,1,Unión Libre,0,0,0,0
+A,5,47,964.97,0.0,Consumo,Consumo General,7492.49,24,Personal,1,Unión Libre,0,1,0,0
+A,1,41,574.78,0.0,Ahorros Suficientes,Back-to-back,18833.68,12,Autoliquidable,1,Viudo,0,0,0,0
+Analista,10,62,530.06,9541.08,Microcrédito,Agrícola-Ganadero,16001.56,48,Prendaria,1,Viudo,0,1,0,0
+A,2,48,716.72,0.0,Consumo,Sueldo,2441.31,48,Personal,1,Unión Libre,0,1,0,0
+A,1,33,797.97,0.0,Inmobiliario,Vivienda,53889.0,60,Hipotecaria,0,Soltero,0,0,0,0
+A,5,30,623.63,0.0,Consumo,Digital,11282.86,12,Personal,1,Casado,0,1,0,0
+Analista,7,35,788.65,14195.7,Microcrédito,Vehicular Trabajo,16281.46,48,Prendaria,1,Viudo,0,0,1,0
+AAA,0,48,877.15,0.0,Inmobiliario,Vivienda,31984.69,60,Hipotecaria,1,Viudo,0,1,0,0
+A,1,27,553.52,0.0,Inmobiliario,Vivienda,79466.91,48,Hipotecaria,1,Divorciado,0,0,0,0
+A,4,32,696.14,0.0,Ahorros Suficientes,Back-to-back,9346.62,60,Autoliquidable,1,Viudo,0,1,0,0
+Analista,13,62,1641.34,0.0,Inmobiliario,Vivienda,52547.32,84,Hipotecaria,1,Divorciado,0,1,0,1
+Analista,6,48,1028.75,0.0,Consumo,Digital,3831.68,84,Personal,1,Casado,0,1,0,0
+AAA,0,36,568.19,0.0,Ahorros Suficientes,Back-to-back,39411.02,60,Autoliquidable,1,Unión Libre,0,0,0,0
+Analista,7,33,620.06,11161.08,Microcrédito,Agrícola-Ganadero,19326.83,12,Personal,0,Soltero,0,1,0,0
+A,1,60,775.73,0.0,Ahorros Suficientes,Back-to-back,4862.96,36,Autoliquidable,1,Viudo,0,1,0,0
+Analista,10,36,170.52,0.0,Consumo,Digital,6072.73,48,Prendaria,1,Soltero,0,1,0,0
+A,2,26,1065.58,0.0,Consumo,Consumo General,9784.22,48,Personal,1,Unión Libre,0,0,0,0
+Analista,7,44,293.24,0.0,Inmobiliario,Vivienda,27658.52,60,Hipotecaria,1,Unión Libre,0,1,0,0
+AAA,0,47,272.27,4900.86,Microcrédito,Vehicular Trabajo,1685.16,24,Personal,1,Casado,0,0,1,0
+Analista,12,44,664.23,0.0,Inmobiliario,Vivienda,65678.74,36,Hipotecaria,0,Soltero,0,1,0,1
+Analista,9,40,672.18,12099.24,Microcrédito,Vehicular Trabajo,1291.96,84,Personal,1,Viudo,0,1,1,0
+Analista,13,50,716.74,0.0,Inmobiliario,Vivienda,62199.02,60,Hipotecaria,0,Unión Libre,0,1,0,0
+AA,0,33,575.83,0.0,Inmobiliario,Vivienda,77613.7,36,Hipotecaria,1,Divorciado,0,0,0,0
+Analista,8,24,630.65,0.0,Ahorros Suficientes,Back-to-back,46520.84,60,Autoliquidable,1,Casado,0,0,0,1
+Analista,10,54,530.12,0.0,Ahorros Suficientes,Back-to-back,25558.79,60,Autoliquidable,1,Casado,0,1,0,1
+A,3,52,764.09,0.0,Inmobiliario,Vivienda,76556.01,60,Hipotecaria,1,Divorciado,1,1,0,0
+Analista,10,52,657.77,0.0,Inmobiliario,Vivienda,60122.47,48,Hipotecaria,1,Unión Libre,0,0,0,0
+Analista,8,49,326.82,0.0,Inmobiliario,Vivienda,77480.52,48,Hipotecaria,1,Casado,0,1,0,0
+Analista,15,70,513.59,0.0,Consumo,Sueldo,2185.89,12,Prendaria,1,Unión Libre,0,0,0,0
+A,2,31,274.37,4938.66,Microcrédito,Agrícola-Ganadero,8836.09,36,Personal,1,Casado,0,1,0,0
+Analista,6,54,841.99,15155.82,Microcrédito,Agrícola-Ganadero,2767.18,84,Prendaria,1,Divorciado,0,1,0,1
+A,1,26,392.23,0.0,Ahorros Suficientes,Back-to-back,16036.7,24,Autoliquidable,1,Casado,0,1,0,0
+A,1,49,391.8,7052.4,Microcrédito,Vehicular Trabajo,13979.04,24,Prendaria,0,Divorciado,0,1,1,0
+Analista,15,54,444.81,8006.58,Microcrédito,Agrícola-Ganadero,4928.79,24,Personal,1,Casado,0,1,0,0
+A,3,39,694.05,12492.9,Microcrédito,Mi Negocio,3277.69,12,Prendaria,0,Divorciado,0,1,0,0
+A,1,62,612.67,0.0,Consumo,Sueldo,5882.35,36,Prendaria,1,Unión Libre,0,1,0,0
+A,2,51,739.55,0.0,Inmobiliario,Vivienda,46902.35,60,Hipotecaria,1,Unión Libre,0,1,0,0
+Analista,6,35,1370.5,24669.0,Microcrédito,Mi Negocio,10988.97,48,Prendaria,0,Casado,0,0,0,0
+Analista,7,38,670.59,0.0,Inmobiliario,Vivienda,40591.6,84,Hipotecaria,0,Soltero,0,0,0,0
+AAA,0,34,549.27,0.0,Consumo,Digital,8013.97,36,Personal,0,Viudo,0,0,0,1
+A,3,55,625.24,0.0,Ahorros Suficientes,Back-to-back,29259.91,36,Autoliquidable,1,Casado,0,0,0,0
+AA,0,36,369.41,6649.38,Microcrédito,Vehicular Trabajo,5994.13,36,Prendaria,1,Divorciado,0,1,1,0
+Analista,8,61,848.76,0.0,Inmobiliario,Vivienda,26954.39,48,Hipotecaria,1,Divorciado,0,1,0,0
+Analista,8,37,771.86,0.0,Inmobiliario,Vivienda,70531.2,36,Hipotecaria,0,Divorciado,0,1,0,0
+A,5,66,386.76,6961.68,Microcrédito,Vehicular Trabajo,14034.23,12,Prendaria,1,Unión Libre,0,1,1,0
+A,3,37,521.29,0.0,Ahorros Suficientes,Back-to-back,42887.28,24,Autoliquidable,0,Unión Libre,0,1,0,0
+A,2,42,868.55,0.0,Ahorros Suficientes,Back-to-back,40380.58,24,Autoliquidable,1,Casado,0,1,0,0
+A,4,48,554.05,0.0,Inmobiliario,Vivienda,66046.64,36,Hipotecaria,1,Casado,0,0,0,0
+A,1,43,616.68,0.0,Consumo,Sueldo,1935.13,24,Personal,1,Unión Libre,0,0,0,0
+A,1,21,391.25,0.0,Ahorros Suficientes,Back-to-back,42029.1,12,Autoliquidable,0,Divorciado,0,1,0,0
+Analista,6,44,650.19,0.0,Inmobiliario,Vivienda,38462.53,60,Hipotecaria,1,Divorciado,0,0,0,0
+AA,0,43,331.92,0.0,Inmobiliario,Vivienda,16289.3,12,Hipotecaria,1,Divorciado,0,0,0,0
+AAA,0,29,719.73,12955.14,Microcrédito,Vehicular Trabajo,11941.99,84,Personal,1,Unión Libre,0,1,0,0
+Analista,6,34,309.1,0.0,Inmobiliario,Vivienda,36130.87,60,Hipotecaria,1,Divorciado,0,1,0,0
+A,4,34,602.97,0.0,Consumo,Sueldo,9398.12,48,Personal,0,Viudo,0,0,0,0
+Analista,8,60,1417.53,0.0,Ahorros Suficientes,Back-to-back,31748.03,60,Autoliquidable,1,Divorciado,0,0,0,0
+Rechazado,21,55,811.61,0.0,Consumo,Consumo General,5482.57,36,Prendaria,1,Soltero,0,1,0,1
+A,2,50,824.41,0.0,Ahorros Suficientes,Back-to-back,13926.78,48,Autoliquidable,1,Divorciado,0,1,0,0
+A,4,37,804.18,0.0,Ahorros Suficientes,Back-to-back,20992.46,24,Autoliquidable,1,Divorciado,0,1,0,0
+A,1,31,771.66,13889.88,Microcrédito,Vehicular Trabajo,5781.29,84,Personal,1,Casado,0,0,1,0
+A,3,28,1496.09,0.0,Consumo,Consumo General,1424.99,48,Personal,1,Viudo,0,1,0,1
+Analista,6,40,685.32,0.0,Consumo,Consumo General,4305.56,24,Personal,1,Viudo,0,1,0,0
+A,2,41,1069.3,0.0,Inmobiliario,Vivienda,29908.14,84,Hipotecaria,0,Viudo,0,0,0,1
+A,3,33,1075.08,19351.44,Microcrédito,Vehicular Trabajo,16931.84,12,Personal,1,Casado,0,0,1,0
+Analista,9,49,838.19,0.0,Ahorros Suficientes,Back-to-back,23626.08,60,Autoliquidable,1,Divorciado,0,1,0,0
+Analista,8,46,558.51,0.0,Ahorros Suficientes,Back-to-back,7188.19,84,Autoliquidable,1,Unión Libre,0,0,0,0
+A,4,43,452.02,0.0,Ahorros Suficientes,Back-to-back,31736.85,84,Autoliquidable,1,Unión Libre,0,0,0,0
+A,2,52,564.27,0.0,Inmobiliario,Vivienda,74080.0,48,Hipotecaria,1,Viudo,0,0,0,0
+AAA,0,29,796.04,0.0,Ahorros Suficientes,Back-to-back,15739.48,48,Autoliquidable,1,Soltero,0,0,0,0
+A,2,43,816.7,0.0,Consumo,Consumo General,8088.09,24,Prendaria,1,Divorciado,1,1,0,1
+AAA,0,32,1032.92,0.0,Consumo,Digital,13870.28,48,Prendaria,0,Unión Libre,0,0,0,1
+A,4,35,2304.19,0.0,Inmobiliario,Vivienda,53805.24,12,Hipotecaria,1,Viudo,0,1,0,0
+A,4,59,1244.27,0.0,Ahorros Suficientes,Back-to-back,44167.02,48,Autoliquidable,0,Casado,0,1,0,0
+A,4,44,883.64,0.0,Ahorros Suficientes,Back-to-back,41507.13,24,Autoliquidable,1,Casado,0,1,0,0
+AA,0,34,393.54,7083.72,Microcrédito,Vehicular Trabajo,15526.23,60,Prendaria,1,Viudo,0,1,0,0
+A,1,39,454.8,0.0,Inmobiliario,Vivienda,41838.75,12,Hipotecaria,1,Unión Libre,0,0,0,0
+A,2,59,1748.0,0.0,Consumo,Digital,7102.47,48,Prendaria,1,Divorciado,0,1,0,0
+Analista,12,24,235.35,4236.3,Microcrédito,Agrícola-Ganadero,1368.51,12,Personal,1,Viudo,0,1,0,1
+A,1,26,566.71,0.0,Inmobiliario,Vivienda,32497.68,84,Hipotecaria,1,Soltero,0,1,0,0
+A,2,45,632.71,11388.78,Microcrédito,Mi Negocio,3862.99,48,Personal,0,Soltero,0,1,0,0
+AAA,0,56,299.52,0.0,Ahorros Suficientes,Back-to-back,49899.19,48,Autoliquidable,1,Divorciado,0,1,0,0
+A,1,44,1198.44,0.0,Inmobiliario,Vivienda,20214.5,24,Hipotecaria,0,Soltero,0,0,0,1
+A,2,57,598.07,0.0,Consumo,Digital,7317.13,24,Prendaria,1,Viudo,0,1,0,0
+Analista,7,28,450.08,0.0,Consumo,Digital,4109.95,48,Personal,1,Soltero,1,1,0,1
+A,1,42,584.12,10514.16,Microcrédito,Agrícola-Ganadero,14971.13,12,Personal,1,Soltero,0,1,0,0
+A,1,40,1495.91,0.0,Inmobiliario,Vivienda,25309.74,84,Hipotecaria,1,Divorciado,0,0,0,1
+AAA,0,29,628.58,0.0,Consumo,Sueldo,7477.83,36,Personal,0,Unión Libre,0,0,0,0
+A,3,36,732.37,13182.66,Microcrédito,Mi Negocio,5483.35,48,Prendaria,0,Soltero,0,1,0,1
+Analista,9,42,1178.95,0.0,Consumo,Sueldo,11942.58,12,Personal,0,Divorciado,0,0,0,0
+A,4,62,399.48,7190.64,Microcrédito,Agrícola-Ganadero,15645.14,24,Personal,1,Viudo,0,0,0,0
+A,1,42,737.44,0.0,Inmobiliario,Vivienda,75505.17,84,Hipotecaria,1,Unión Libre,0,1,0,1
+A,1,35,974.43,17539.74,Microcrédito,Vehicular Trabajo,11190.71,12,Personal,1,Divorciado,0,0,1,0
+Analista,14,48,1168.75,0.0,Inmobiliario,Vivienda,67359.15,48,Hipotecaria,1,Divorciado,1,0,0,1
+Analista,7,30,575.35,0.0,Ahorros Suficientes,Back-to-back,18229.29,24,Autoliquidable,1,Soltero,0,0,0,0
+AAA,0,35,555.12,0.0,Ahorros Suficientes,Back-to-back,35477.99,60,Autoliquidable,0,Soltero,0,0,0,0
+Analista,8,42,600.0,10800.0,Microcrédito,Vehicular Trabajo,4545.91,36,Prendaria,1,Viudo,0,0,1,0
+Analista,8,41,972.78,17510.04,Microcrédito,Mi Negocio,11091.61,48,Prendaria,1,Divorciado,0,0,0,0
+Analista,13,36,1106.37,0.0,Inmobiliario,Vivienda,44515.13,84,Hipotecaria,1,Unión Libre,0,1,0,0
+A,2,35,977.62,0.0,Consumo,Digital,12924.02,60,Personal,1,Casado,0,1,0,0
+Rechazado,18,68,1307.06,0.0,Ahorros Suficientes,Back-to-back,9898.54,84,Autoliquidable,1,Soltero,0,0,0,1
+Analista,9,46,1035.97,18647.46,Microcrédito,Vehicular Trabajo,6379.45,48,Prendaria,1,Unión Libre,0,0,1,0
+A,2,51,1450.11,0.0,Consumo,Consumo General,12610.3,24,Personal,1,Unión Libre,0,1,0,0
+A,1,33,309.44,0.0,Consumo,Sueldo,3278.44,12,Prendaria,1,Casado,0,0,0,0
+Analista,10,38,706.13,0.0,Inmobiliario,Vivienda,18190.57,24,Hipotecaria,1,Unión Libre,0,1,0,0
+AAA,0,53,484.1,0.0,Consumo,Consumo General,10008.37,12,Prendaria,1,Soltero,0,0,0,0
+A,2,48,577.73,0.0,Inmobiliario,Vivienda,51271.29,48,Hipotecaria,1,Soltero,1,1,0,1
+A,3,57,698.72,0.0,Inmobiliario,Vivienda,49386.35,84,Hipotecaria,1,Soltero,0,0,0,1
+A,2,57,311.23,0.0,Consumo,Consumo General,14428.51,12,Personal,1,Divorciado,1,1,0,1
+Rechazado,28,57,178.51,0.0,Ahorros Suficientes,Back-to-back,9878.29,60,Autoliquidable,0,Unión Libre,0,0,0,1
+Analista,8,38,587.04,10566.72,Microcrédito,Vehicular Trabajo,15234.69,48,Personal,0,Unión Libre,0,1,1,0
+A,3,38,780.08,0.0,Inmobiliario,Vivienda,58842.02,84,Hipotecaria,1,Unión Libre,0,0,0,0
+Analista,7,32,546.5,9837.0,Microcrédito,Mi Negocio,11449.34,60,Prendaria,1,Soltero,0,1,0,0
+A,2,27,463.81,0.0,Ahorros Suficientes,Back-to-back,46709.24,36,Autoliquidable,0,Unión Libre,0,1,0,0
+Rechazado,20,41,1646.99,0.0,Inmobiliario,Vivienda,41802.31,84,Hipotecaria,0,Divorciado,0,1,0,1
+A,5,65,560.35,10086.3,Microcrédito,Vehicular Trabajo,11366.9,48,Prendaria,0,Divorciado,0,0,1,0
+A,2,29,2152.83,0.0,Ahorros Suficientes,Back-to-back,48011.31,12,Autoliquidable,1,Viudo,0,0,0,0
+A,4,29,464.97,0.0,Consumo,Digital,2458.74,36,Personal,1,Divorciado,0,1,0,0
+Analista,11,40,1039.63,18713.34,Microcrédito,Agrícola-Ganadero,1412.33,84,Prendaria,1,Casado,0,0,0,0
+Analista,13,26,585.39,10537.02,Microcrédito,Mi Negocio,1716.99,36,Personal,1,Unión Libre,0,0,0,1
+A,1,65,751.32,13523.76,Microcrédito,Mi Negocio,5868.63,36,Personal,1,Divorciado,0,0,0,0
+Analista,8,44,385.64,6941.52,Microcrédito,Vehicular Trabajo,2466.83,36,Prendaria,1,Unión Libre,0,0,1,0
+AAA,0,41,433.36,0.0,Consumo,Digital,9812.69,12,Prendaria,1,Unión Libre,1,0,0,1
+A,2,34,378.79,0.0,Inmobiliario,Vivienda,37615.46,48,Hipotecaria,1,Soltero,0,0,0,0
+AAA,0,64,680.44,12247.92,Microcrédito,Vehicular Trabajo,13402.8,60,Personal,1,Soltero,0,0,1,0
+Analista,15,57,879.34,0.0,Consumo,Sueldo,8103.56,36,Personal,1,Viudo,0,1,0,1
+A,1,31,2335.01,42030.18,Microcrédito,Mi Negocio,13799.07,48,Prendaria,1,Casado,0,1,0,0
+A,5,28,651.79,0.0,Consumo,Consumo General,6763.07,48,Personal,1,Unión Libre,0,0,0,0
+A,2,31,304.44,0.0,Ahorros Suficientes,Back-to-back,28786.31,12,Autoliquidable,1,Soltero,0,0,0,0
+Analista,7,42,368.81,0.0,Consumo,Sueldo,7776.44,84,Personal,1,Divorciado,0,0,0,0
+AA,0,33,281.88,5073.84,Microcrédito,Agrícola-Ganadero,8511.06,60,Personal,1,Viudo,0,1,0,0
+Analista,6,27,675.98,12167.64,Microcrédito,Mi Negocio,2361.24,48,Prendaria,1,Unión Libre,0,1,0,0
+A,2,57,1503.85,0.0,Consumo,Consumo General,10240.34,48,Prendaria,1,Unión Libre,0,0,0,0
+Analista,6,44,907.75,0.0,Inmobiliario,Vivienda,53602.01,12,Hipotecaria,1,Divorciado,0,1,0,0
+Rechazado,16,33,972.39,0.0,Inmobiliario,Vivienda,55054.36,48,Hipotecaria,1,Casado,0,0,0,1
+A,1,31,574.86,0.0,Consumo,Consumo General,3395.44,36,Personal,1,Viudo,0,0,0,0
+A,1,25,302.86,0.0,Consumo,Digital,1290.8,60,Personal,1,Soltero,0,1,0,0
+Analista,7,21,361.21,0.0,Consumo,Sueldo,10560.03,12,Prendaria,1,Divorciado,0,0,0,0
+A,4,44,1187.6,0.0,Inmobiliario,Vivienda,28585.62,60,Hipotecaria,1,Soltero,0,1,0,0
+Rechazado,21,41,1081.98,0.0,Inmobiliario,Vivienda,50672.0,60,Hipotecaria,1,Unión Libre,0,0,0,1
+A,1,24,620.47,0.0,Consumo,Sueldo,8953.57,84,Personal,1,Casado,0,0,0,0
+A,3,26,1215.06,0.0,Inmobiliario,Vivienda,28045.24,84,Hipotecaria,1,Soltero,0,1,0,0
+A,1,29,406.54,0.0,Ahorros Suficientes,Back-to-back,32910.51,12,Autoliquidable,1,Soltero,0,0,0,1
+AA,0,41,447.53,0.0,Inmobiliario,Vivienda,71178.35,12,Hipotecaria,1,Divorciado,0,1,0,0
+A,1,33,602.77,10849.86,Microcrédito,Agrícola-Ganadero,10662.27,84,Personal,1,Viudo,0,1,0,0
+AA,0,51,527.27,0.0,Consumo,Consumo General,3383.69,48,Personal,1,Viudo,0,0,0,1
+A,1,49,658.56,0.0,Inmobiliario,Vivienda,36682.03,48,Hipotecaria,1,Unión Libre,0,0,0,0
+Analista,9,30,630.41,0.0,Inmobiliario,Vivienda,59480.24,36,Hipotecaria,1,Soltero,0,0,0,0
+Analista,12,48,1143.63,0.0,Inmobiliario,Vivienda,67773.04,84,Hipotecaria,1,Casado,0,1,0,1
+AAA,0,43,1483.33,0.0,Consumo,Digital,14262.19,24,Personal,1,Viudo,0,0,0,0
+AAA,0,43,782.21,14079.78,Microcrédito,Mi Negocio,14867.9,60,Personal,1,Viudo,0,0,0,0
+A,5,29,2077.92,37402.56,Microcrédito,Agrícola-Ganadero,19440.21,60,Prendaria,1,Unión Libre,0,1,0,0
+Analista,7,29,492.02,8856.36,Microcrédito,Vehicular Trabajo,3632.95,60,Personal,1,Casado,0,0,1,0
+A,3,24,779.74,14035.32,Microcrédito,Agrícola-Ganadero,19918.03,24,Personal,1,Divorciado,0,1,0,0
+AAA,0,42,698.08,0.0,Consumo,Consumo General,5105.17,24,Personal,1,Unión Libre,0,1,0,0
+Rechazado,34,39,565.68,0.0,Ahorros Suficientes,Back-to-back,15515.73,84,Autoliquidable,0,Viudo,0,1,0,1
+A,3,30,691.86,12453.48,Microcrédito,Mi Negocio,3028.66,24,Personal,1,Divorciado,0,0,0,0
+Analista,6,29,1126.6,0.0,Inmobiliario,Vivienda,54364.29,60,Hipotecaria,1,Unión Libre,0,0,0,0
+A,1,25,490.91,8836.38,Microcrédito,Vehicular Trabajo,1495.61,12,Prendaria,1,Casado,0,1,1,0
+A,3,40,543.39,0.0,Ahorros Suficientes,Back-to-back,35744.95,36,Autoliquidable,1,Unión Libre,0,1,0,0
+Analista,13,46,423.97,0.0,Ahorros Suficientes,Back-to-back,23955.42,24,Autoliquidable,1,Viudo,0,0,0,1
+A,2,33,410.72,0.0,Ahorros Suficientes,Back-to-back,38344.67,12,Autoliquidable,0,Soltero,0,1,0,0
+AA,0,55,1293.61,23284.98,Microcrédito,Vehicular Trabajo,13755.44,24,Personal,1,Viudo,1,1,1,1
+AAA,0,32,1287.59,0.0,Ahorros Suficientes,Back-to-back,34549.2,48,Autoliquidable,1,Viudo,0,0,0,0
+A,5,39,980.76,0.0,Ahorros Suficientes,Back-to-back,38922.63,60,Autoliquidable,1,Viudo,0,0,0,0
+Analista,12,36,646.73,0.0,Inmobiliario,Vivienda,40619.8,84,Hipotecaria,1,Viudo,1,1,0,1
+A,1,48,1246.01,0.0,Consumo,Digital,2085.09,48,Personal,0,Unión Libre,0,0,0,0
+AAA,0,28,1067.35,0.0,Ahorros Suficientes,Back-to-back,49199.62,12,Autoliquidable,1,Casado,0,1,0,0
+Analista,8,40,744.97,0.0,Consumo,Consumo General,4722.1,48,Prendaria,1,Unión Libre,0,1,0,0
+A,2,63,502.31,0.0,Ahorros Suficientes,Back-to-back,8741.09,36,Autoliquidable,1,Divorciado,0,1,0,0
+A,2,28,598.09,10765.62,Microcrédito,Agrícola-Ganadero,16767.98,48,Personal,0,Soltero,0,1,0,0
+Analista,6,51,1199.28,21587.04,Microcrédito,Vehicular Trabajo,18819.01,84,Personal,0,Soltero,0,0,0,0
+Analista,8,44,697.75,0.0,Ahorros Suficientes,Back-to-back,1733.15,48,Autoliquidable,1,Divorciado,0,0,0,0
+Rechazado,16,71,494.4,0.0,Ahorros Suficientes,Back-to-back,4963.89,36,Autoliquidable,1,Casado,0,1,0,1
+A,1,44,1013.89,0.0,Consumo,Consumo General,2155.39,48,Prendaria,0,Casado,0,1,0,1
+Analista,7,35,1189.66,21413.88,Microcrédito,Agrícola-Ganadero,11456.57,12,Personal,0,Viudo,0,1,0,0
+Analista,7,31,1691.91,30454.38,Microcrédito,Mi Negocio,17507.55,24,Personal,1,Unión Libre,0,1,0,0
+A,3,47,1238.45,0.0,Ahorros Suficientes,Back-to-back,14794.64,24,Autoliquidable,1,Divorciado,1,0,0,1
+Analista,6,35,366.04,6588.72,Microcrédito,Mi Negocio,12828.65,36,Personal,1,Casado,0,1,0,0
+A,3,25,767.32,0.0,Consumo,Digital,13299.19,24,Personal,1,Viudo,0,1,0,0
+AA,0,41,358.43,0.0,Ahorros Suficientes,Back-to-back,20802.49,12,Autoliquidable,1,Viudo,0,0,0,0
+Analista,13,60,932.39,16783.02,Microcrédito,Vehicular Trabajo,6284.15,84,Personal,0,Soltero,0,1,1,1
+Analista,12,36,301.33,0.0,Consumo,Digital,5560.79,24,Personal,1,Casado,0,0,0,0
+A,1,64,817.7,0.0,Inmobiliario,Vivienda,36522.22,12,Hipotecaria,1,Unión Libre,0,1,0,1
+A,1,39,717.26,12910.68,Microcrédito,Mi Negocio,13769.72,60,Personal,1,Viudo,0,1,0,0
+A,4,36,804.45,0.0,Inmobiliario,Vivienda,75546.19,12,Hipotecaria,1,Unión Libre,0,0,0,0
+A,1,30,791.69,0.0,Inmobiliario,Vivienda,73339.44,12,Hipotecaria,0,Divorciado,0,1,0,0
+AAA,0,33,424.57,0.0,Consumo,Sueldo,7326.84,12,Prendaria,1,Unión Libre,0,1,0,0
+AAA,0,48,332.31,5981.58,Microcrédito,Vehicular Trabajo,4971.97,12,Personal,1,Viudo,0,0,1,0
+A,1,36,974.51,0.0,Consumo,Sueldo,10999.07,60,Prendaria,1,Unión Libre,0,0,0,0
+Analista,8,69,385.5,0.0,Inmobiliario,Vivienda,49150.43,60,Hipotecaria,1,Divorciado,0,0,0,0
+A,2,54,989.45,0.0,Ahorros Suficientes,Back-to-back,26225.44,84,Autoliquidable,1,Casado,0,1,0,0
+A,1,35,800.4,14407.2,Microcrédito,Vehicular Trabajo,6519.27,24,Personal,1,Casado,0,0,0,0
+A,2,31,890.83,0.0,Consumo,Digital,12797.01,60,Prendaria,1,Viudo,0,0,0,0
+Analista,8,37,402.3,0.0,Inmobiliario,Vivienda,51427.01,84,Hipotecaria,1,Divorciado,0,0,0,0
+AAA,0,57,796.38,0.0,Inmobiliario,Vivienda,31537.14,12,Hipotecaria,1,Casado,0,1,0,0
+Rechazado,16,54,1018.65,0.0,Inmobiliario,Vivienda,64857.12,12,Hipotecaria,1,Unión Libre,0,1,0,1
+Rechazado,22,46,359.75,0.0,Ahorros Suficientes,Back-to-back,36357.63,60,Autoliquidable,0,Divorciado,0,0,0,1
+Analista,8,35,576.87,10383.66,Microcrédito,Agrícola-Ganadero,16842.68,84,Prendaria,0,Casado,0,1,0,0
+A,2,38,518.33,9329.94,Microcrédito,Agrícola-Ganadero,3952.34,48,Prendaria,1,Soltero,0,0,0,0
+AAA,0,69,501.1,0.0,Consumo,Digital,4840.48,84,Prendaria,1,Viudo,0,1,0,0
+A,1,33,1008.09,18145.62,Microcrédito,Vehicular Trabajo,14024.37,36,Personal,0,Soltero,0,1,1,0
+AAA,0,31,1315.59,0.0,Consumo,Sueldo,14762.47,84,Personal,1,Divorciado,0,1,0,0
+Analista,9,46,333.82,6008.76,Microcrédito,Vehicular Trabajo,3220.05,36,Prendaria,1,Viudo,0,0,1,0
+A,2,38,1506.48,0.0,Ahorros Suficientes,Back-to-back,4796.49,24,Autoliquidable,0,Divorciado,0,1,0,0
+A,1,46,1281.58,23068.44,Microcrédito,Vehicular Trabajo,6744.05,12,Prendaria,1,Divorciado,0,0,1,0
+AAA,0,41,1367.82,0.0,Consumo,Sueldo,7836.92,48,Personal,1,Casado,0,1,0,0
+A,1,42,514.82,0.0,Inmobiliario,Vivienda,65409.66,24,Hipotecaria,1,Viudo,0,0,0,0
+Analista,8,39,426.81,7682.58,Microcrédito,Mi Negocio,14766.84,48,Prendaria,1,Soltero,0,0,0,0
+AAA,0,39,978.38,0.0,Consumo,Consumo General,5009.23,12,Personal,1,Unión Libre,0,1,0,0
+A,1,47,473.61,0.0,Consumo,Digital,11609.61,84,Prendaria,1,Soltero,0,0,0,1
+A,2,41,154.91,2788.38,Microcrédito,Agrícola-Ganadero,4810.55,36,Prendaria,1,Divorciado,0,1,0,0
+A,4,53,1594.46,0.0,Consumo,Sueldo,2665.15,36,Personal,0,Viudo,0,0,0,1
+A,1,32,547.1,0.0,Consumo,Consumo General,8366.67,60,Prendaria,1,Unión Libre,0,1,0,0
+AAA,0,42,945.51,17019.18,Microcrédito,Mi Negocio,2353.61,60,Prendaria,1,Divorciado,0,0,0,0
+A,1,31,1953.67,35166.06,Microcrédito,Mi Negocio,9943.98,84,Personal,1,Soltero,0,0,0,0
+A,3,62,482.59,0.0,Consumo,Sueldo,6182.79,84,Prendaria,1,Soltero,0,1,0,0
+A,4,37,1529.47,0.0,Inmobiliario,Vivienda,68133.73,84,Hipotecaria,1,Divorciado,0,0,0,0
+Analista,6,31,354.6,0.0,Consumo,Sueldo,8732.94,12,Prendaria,1,Unión Libre,0,0,0,1
+AAA,0,38,958.91,0.0,Ahorros Suficientes,Back-to-back,23792.02,24,Autoliquidable,1,Divorciado,0,1,0,0
+A,1,38,1041.87,0.0,Inmobiliario,Vivienda,74336.0,48,Hipotecaria,1,Unión Libre,0,1,0,0
+Analista,12,32,1170.41,0.0,Inmobiliario,Vivienda,44463.4,12,Hipotecaria,0,Divorciado,0,1,0,1
+AAA,0,36,1070.26,0.0,Inmobiliario,Vivienda,46112.39,24,Hipotecaria,1,Soltero,0,0,0,0
+A,5,29,865.62,15581.16,Microcrédito,Vehicular Trabajo,2955.71,84,Personal,1,Divorciado,0,0,1,0
+Analista,7,38,625.45,0.0,Inmobiliario,Vivienda,49628.46,48,Hipotecaria,1,Soltero,0,0,0,0
+A,2,48,892.59,16066.62,Microcrédito,Vehicular Trabajo,4021.39,48,Prendaria,1,Casado,0,1,1,1
+Analista,15,54,527.62,0.0,Ahorros Suficientes,Back-to-back,39323.54,48,Autoliquidable,0,Casado,0,1,0,0
+A,1,66,977.13,17588.34,Microcrédito,Mi Negocio,13589.63,12,Prendaria,1,Divorciado,0,1,0,0
+A,5,25,954.72,0.0,Ahorros Suficientes,Back-to-back,16606.22,12,Autoliquidable,0,Unión Libre,0,0,0,0
+Analista,6,60,703.38,0.0,Inmobiliario,Vivienda,77132.42,12,Hipotecaria,1,Casado,0,0,0,0
+AA,0,41,636.47,0.0,Ahorros Suficientes,Back-to-back,16706.71,84,Autoliquidable,1,Unión Libre,0,1,0,0
+AA,0,45,1471.82,26492.76,Microcrédito,Mi Negocio,17857.97,84,Personal,1,Soltero,0,0,0,0
+Rechazado,19,34,862.16,0.0,Ahorros Suficientes,Back-to-back,26797.16,48,Autoliquidable,1,Casado,0,1,0,1
+A,3,57,852.27,15340.86,Microcrédito,Mi Negocio,13948.82,36,Prendaria,1,Viudo,0,1,0,0
+AA,0,38,891.0,0.0,Ahorros Suficientes,Back-to-back,36030.67,36,Autoliquidable,1,Divorciado,0,0,0,0
+A,5,60,552.74,0.0,Consumo,Digital,14803.11,48,Personal,1,Unión Libre,0,1,0,0
+AAA,0,49,757.93,0.0,Inmobiliario,Vivienda,73569.92,12,Hipotecaria,1,Soltero,0,0,0,1
+A,4,56,1109.43,0.0,Inmobiliario,Vivienda,22130.39,36,Hipotecaria,0,Unión Libre,0,0,0,0
+A,2,41,682.11,0.0,Ahorros Suficientes,Back-to-back,35259.98,48,Autoliquidable,1,Casado,0,0,0,0
+A,2,54,913.94,0.0,Ahorros Suficientes,Back-to-back,19387.47,60,Autoliquidable,1,Viudo,0,0,0,0

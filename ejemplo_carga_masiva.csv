@@ -1,0 +1,6 @@
+score_interno,dias_mora_prom,edad,ingreso_mensual,ventas_anuales,monto_solicitado,plazo_meses,segmento_credito,garantia,tiene_garante,propiedad_completa,estado_legal
+AAA,0,35,1500,0,5000,12,Consumo,Personal,True,True,False
+AA,5,42,2000,25000,10000,24,Microcrédito,Prendaria,True,False,False
+A,10,28,1200,0,3000,18,Consumo,Personal,False,True,False
+Analista,30,55,3500,50000,20000,36,Inmobiliario,Hipotecaria,True,True,False
+Rechazado,90,25,800,0,2000,12,Consumo,Personal,False,False,True
