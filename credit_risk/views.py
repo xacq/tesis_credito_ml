@@ -12,9 +12,11 @@ from .forms import CreditForm
 # 1. Cargar modelo y scaler al iniciar el servidor (para eficiencia)
 MODEL_PATH = os.path.join(settings.BASE_DIR, 'credit_risk/ml_models/modelo_riesgo_v1.pkl')
 SCALER_PATH = os.path.join(settings.BASE_DIR, 'credit_risk/ml_models/scaler.pkl')
+COLUMNS_PATH = os.path.join(settings.BASE_DIR, 'credit_risk/ml_models/model_columns.pkl')
 
 modelo = joblib.load(MODEL_PATH)
 scaler = joblib.load(SCALER_PATH)
+model_columns = joblib.load(COLUMNS_PATH)
 
 def predict_view(request):
     resultado = None
@@ -55,22 +57,9 @@ def predict_view(request):
             # --- ONE HOT ENCODING MANUAL ---
             # El modelo espera columnas específicas como 'segmento_credito_Microcrédito'
             # Aquí definimos las que salieron del entrenamiento (revisar X_train.columns)
-            
-            # Ejemplo simplificado de columnas esperadas (AJUSTA ESTO SEGÚN TU X_TRAIN)
-            # Si en tu notebook usaste get_dummies, tendrás columnas como 'garantia_Prendaria'
-            
-            features_modelo = [
-                'score_interno_num', 'dias_mora_prom', 'edad', 'ingreso_mensual', 'ventas_anuales',
-                'monto_solicitado', 'plazo_meses', 'propiedad_completa', 'estado_legal', 
-                'tiene_garante', 'rastreo_instalado',
-                # Columnas Dummy (Asegúrate que coincidan con tu X_train.columns)
-                'segmento_credito_Microcrédito', 'segmento_credito_Inmobiliario', 'segmento_credito_Ahorros Suficientes',
-                'garantia_Prendaria', 'garantia_Hipotecaria', 'garantia_Autoliquidable'
-                # Agrega aquí el resto de dummies de producto/estado_civil si las usaste
-            ]
-            
+
             # Crear DataFrame lleno de ceros
-            df_input = pd.DataFrame(0, index=[0], columns=features_modelo)
+            df_input = pd.DataFrame(0, index=[0], columns=model_columns)
             
             # Llenar numéricas
             cols_num = ['dias_mora_prom', 'edad', 'ingreso_mensual', 'ventas_anuales', 'monto_solicitado', 'plazo_meses']
@@ -90,6 +79,12 @@ def predict_view(request):
             gar = f"garantia_{data['garantia']}"
             if gar in df_input.columns:
                 df_input[gar] = 1
+
+            # Manejo genérico para estado_civil (causante del error original)
+            if 'estado_civil' in data:
+                ec = f"estado_civil_{data['estado_civil']}"
+                if ec in df_input.columns:
+                    df_input[ec] = 1
 
             # --- ESCALADO ---
             df_input[cols_num] = scaler.transform(df_input[cols_num])
@@ -150,13 +145,6 @@ def batch_predict_view(request):
                 
                 mapa_score = {'AAA': 5, 'AA': 4, 'A': 3, 'Analista': 2, 'Rechazado': 1}
                 
-                features_modelo = [
-                    'score_interno_num', 'dias_mora_prom', 'edad', 'ingreso_mensual', 'ventas_anuales',
-                    'monto_solicitado', 'plazo_meses', 'propiedad_completa', 'estado_legal', 
-                    'tiene_garante', 'rastreo_instalado',
-                    'segmento_credito_Microcrédito', 'segmento_credito_Inmobiliario', 'segmento_credito_Ahorros Suficientes',
-                    'garantia_Prendaria', 'garantia_Hipotecaria', 'garantia_Autoliquidable'
-                ]
                 
                 cols_num = ['dias_mora_prom', 'edad', 'ingreso_mensual', 'ventas_anuales', 'monto_solicitado', 'plazo_meses']
                 
@@ -165,7 +153,7 @@ def batch_predict_view(request):
                     score_num = mapa_score.get(row['score_interno'], 2)
                     
                     # Crear DataFrame con estructura del modelo
-                    df_input = pd.DataFrame(0, index=[0], columns=features_modelo)
+                    df_input = pd.DataFrame(0, index=[0], columns=model_columns)
                     
                     # Llenar valores numéricos
                     for col in cols_num:
@@ -186,6 +174,12 @@ def batch_predict_view(request):
                     if gar in df_input.columns:
                         df_input[gar] = 1
                     
+                    # Manejo genérico para estado_civil en carga masiva
+                    if 'estado_civil' in row:
+                        ec = f"estado_civil_{row['estado_civil']}"
+                        if ec in df_input.columns:
+                            df_input[ec] = 1
+
                     # Escalar variables numéricas
                     df_input[cols_num] = scaler.transform(df_input[cols_num])
                     

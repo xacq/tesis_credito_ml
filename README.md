@@ -1,11 +1,13 @@
 # Tesis Crédito ML
 
-Este proyecto implementa un modelo de Machine Learning para la evaluación de riesgo crediticio, incluyendo la generación de datos sintéticos y análisis exploratorio.
+Este proyecto implementa un modelo de Machine Learning para la evaluación de riesgo crediticio, incluyendo la generación de datos sintéticos, análisis exploratorio y una interfaz web desarrollada en Django.
 
 ## Estructura del Proyecto
 
 * `data/`: Scripts de generación de datos y archivos CSV resultantes.
 * `notebooks/`: Jupyter Notebooks para el análisis y modelado.
+* `web/`: Aplicación Django (vistas, modelos, templates).
+* `manage.py`: Script de gestión de Django.
 * `venv/`: Entorno virtual de Python (no se sube al repositorio).
 * `requirements.txt`: Lista de dependencias del proyecto.
 
@@ -40,7 +42,7 @@ pip install -r requirements.txt
 *Nota: Si tienes problemas con las versiones específicas del archivo requirements, puedes instalar las librerías base manualmente:*
 
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn jupyter notebook
+pip install pandas numpy matplotlib seaborn scikit-learn jupyter notebook django
 ```
 
 ## Ejecución
