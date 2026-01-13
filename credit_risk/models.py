@@ -1,56 +1,47 @@
 from django.db import models
+from django.contrib.auth.models import User
 
-# Create your models here.
-import pandas as pd
-from django.shortcuts import render
-from django.contrib import messages
-from .forms import FileUploadForm
-import joblib
-# from .utils import preprocess_data  # Si tienes una función de limpieza
 
-# Cargar modelo (ajusta la ruta según tu proyecto)
-# model = joblib.load('ruta/a/tu/modelo.pkl')
+class CreditEvaluation(models.Model):
+    ESTADOS = [
+        ('PENDIENTE', 'Pendiente'),
+        ('APROBADO', 'Aprobado'),
+        ('RECHAZADO', 'Rechazado'),
+        ('OBSERVADO', 'Observado'),
+    ]
 
-def batch_predict_view(request):
-    results = None
-    if request.method == 'POST':
-        form = FileUploadForm(request.POST, request.FILES)
-        if form.is_valid():
-            file = request.FILES['file']
-            try:
-                # 1. Leer archivo
-                if file.name.endswith('.csv'):
-                    df = pd.read_csv(file)
-                elif file.name.endswith(('.xls', '.xlsx')):
-                    df = pd.read_excel(file)
-                else:
-                    messages.error(request, "Formato no soportado. Use CSV o Excel.")
-                    return render(request, 'upload.html', {'form': form})
+    user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
 
-                # 2. Validar columnas (Ejemplo)
-                # required_columns = ['ingresos', 'edad', 'historial'] 
-                # if not all(col in df.columns for col in required_columns):
-                #     messages.error(request, f"Faltan columnas. Requeridas: {required_columns}")
-                #     return render(request, 'upload.html', {'form': form})
+    # Inputs
+    edad = models.IntegerField()
+    estado_civil = models.CharField(max_length=20)
+    ingreso_mensual = models.FloatField()
+    ventas_anuales = models.FloatField(default=0)
+    monto_solicitado = models.FloatField()
+    plazo_meses = models.IntegerField()
+    dias_mora_prom = models.IntegerField(default=0)
 
-                # 3. Preprocesamiento y Predicción
-                # X = preprocess_data(df)
-                # predictions = model.predict(X)
-                
-                # Simulación de predicción para el ejemplo (BORRAR ESTO al integrar modelo real)
-                import numpy as np
-                predictions = np.random.choice(['Aprobado', 'Rechazado'], size=len(df))
+    garantia = models.CharField(max_length=20)
+    tiene_garante = models.BooleanField(default=False)
+    propiedad_completa = models.BooleanField(default=False)
+    estado_legal = models.BooleanField(default=False)
 
-                # 4. Agregar resultados
-                df['Prediccion_Riesgo'] = predictions
-                
-                # Convertir a diccionario para la plantilla
-                results = df.to_dict(orient='records')
-                messages.success(request, f"Se procesaron {len(df)} registros exitosamente.")
+    # Outputs ML
+    prob_riesgo = models.FloatField()
+    prediccion = models.IntegerField()  # 0/1
+    recomendacion = models.CharField(max_length=10)  # BAJO/MEDIO/ALTO
 
-            except Exception as e:
-                messages.error(request, f"Error procesando el archivo: {str(e)}")
-    else:
-        form = FileUploadForm()
+    # Auditoría / Decisión humana
+    estado_caso = models.CharField(max_length=12, choices=ESTADOS, default='PENDIENTE')
+    decision_final = models.CharField(max_length=12, choices=ESTADOS, null=True, blank=True)
+    comentario_analista = models.TextField(null=True, blank=True)
 
-    return render(request, 'upload.html', {'form': form, 'results': results})
+    cliente_nombres = models.CharField(max_length=120, null=True, blank=True)
+    cliente_apellidos = models.CharField(max_length=120, null=True, blank=True)
+    cliente_cedula = models.CharField(max_length=10, null=True, blank=True, db_index=True)
+
+
+    def __str__(self):
+        return f"Eval #{self.id} - {self.estado_caso} - {self.created_at:%Y-%m-%d}"
