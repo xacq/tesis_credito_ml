@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+<head><meta charset="utf-8"><title>Detalle Evaluación</title></head>
+<body>
+  <p><a href="{% url 'historial' %}">← Volver al historial</a></p>
+
+  <h2>Evaluación #{{ e.id }}</h2>
+  <p><b>Fecha:</b> {{ e.created_at|date:"Y-m-d H:i" }} | <b>Usuario:</b> {{ e.user.username }}</p>
+
+  <h3>Entrada</h3>
+  <ul>
+    <li>Edad: {{ e.edad }}</li>
+    <li>Estado civil: {{ e.estado_civil }}</li>
+    <li>Ingreso mensual: {{ e.ingreso_mensual }}</li>
+    <li>Ventas anuales: {{ e.ventas_anuales }}</li>
+    <li>Monto solicitado: {{ e.monto_solicitado }}</li>
+    <li>Plazo (meses): {{ e.plazo_meses }}</li>
+    <li>Días mora prom: {{ e.dias_mora_prom }}</li>
+    <li>Garantía: {{ e.garantia }}</li>
+    <li>Tiene garante: {{ e.tiene_garante }}</li>
+    <li>Propiedad completa: {{ e.propiedad_completa }}</li>
+    <li>Estado legal: {{ e.estado_legal }}</li>
+  </ul>
+
+  <h3>Resultado ML</h3>
+  <ul>
+    <li>Probabilidad de impago: {{ e.prob_riesgo|floatformat:4 }}</li>
+    <li>Predicción: {{ e.prediccion }}</li>
+    <li>Recomendación: {{ e.recomendacion }}</li>
+  </ul>
+
+  <h3>Estado del caso</h3>
+  <p><b>Estado:</b> {{ e.estado_caso }} | <b>Decisión final:</b> {{ e.decision_final|default:"—" }}</p>
+  <p><b>Comentario:</b> {{ e.comentario_analista|default:"—" }}</p>
+</body>
+</html>

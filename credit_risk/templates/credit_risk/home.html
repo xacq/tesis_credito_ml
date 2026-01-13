@@ -8,11 +8,16 @@
 </head>
 
 <body class="bg-light">
+
+    <header>
+        <a class="btn btn-light ms-2" href="{% url 'historial' %}">📋 Historial</a>
+        <a class="btn btn-outline-light ms-2" href="{% url 'logout' %}">🚪 Salir</a>
+    </header>
     <div class="container mt-5">
         <div class="card shadow">
             <div class="card-header bg-primary text-white">
                 <h3>🏦 Sistema de Prospección de Crédito (IA)</h3>
-                <a href="{% url 'batch_predict' %}" class="btn btn-success">📂 Carga Masiva de Archivos</a>
+                <a class="btn btn-success" href="{% url 'batch_predict' %}">📁 Carga Masiva de Archivos</a>
             </div>
             <div class="card-body">
                 <form method="post">

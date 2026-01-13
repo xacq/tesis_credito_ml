@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ingreso al Sistema</title>
+</head>
+<body>
+    <h2>Sistema de Evaluación Crediticia</h2>
+
+    {% if form.errors %}
+        <p style="color:red;">Usuario o contraseña incorrectos</p>
+    {% endif %}
+
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Ingresar</button>
+    </form>
+</body>
+</html>

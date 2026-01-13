@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Historial de Evaluaciones Crediticias</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 6px 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f0f0f0;
+        }
+        .alto { color: #b00020; font-weight: bold; }
+        .medio { color: #e65100; font-weight: bold; }
+        .bajo { color: #2e7d32; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h2>Historial de Evaluaciones Crediticias</h2>
+
+    <p><a href="{% url 'home' %}">← Volver a Evaluar</a> | <a href="{% url 'logout' %}">Cerrar sesión</a></p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Fecha</th>
+                <th>Usuario</th>
+                <th>Edad</th>
+                <th>Estado Civil</th>
+                <th>Ingreso</th>
+                <th>Monto</th>
+                <th>Plazo</th>
+                <th>Garantía</th>
+                <th>Prob. Impago (%)</th>
+                <th>Predicción</th>
+                <th>Recomendación</th>
+                <th>Ver</th>
+                <th>Editar</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for e in evaluaciones %}
+            <tr>
+                <td>{{ e.created_at|date:"Y-m-d H:i" }}</td>
+                <td>{{ e.user.username|default:"—" }}</td>
+                <td>{{ e.edad }}</td>
+                <td>{{ e.estado_civil }}</td>
+                <td>{{ e.ingreso_mensual }}</td>
+                <td>{{ e.monto_solicitado }}</td>
+                <td>{{ e.plazo_meses }}</td>
+                <td>{{ e.garantia }}</td>
+                <td>{{ e.prob_riesgo|floatformat:2 }}</td>
+                <td>{{ e.prediccion }}</td>
+                <td class="{% if e.recomendacion == 'ALTO' %}alto{% elif e.recomendacion == 'MEDIO' %}medio{% else %}bajo{% endif %}">
+                    {{ e.recomendacion }}
+                </td>
+                <td><a href="{% url 'evaluacion_detalle' e.id %}">Ver</a></td>
+                <td><a href="{% url 'evaluacion_editar' e.id %}">Editar</a></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
+

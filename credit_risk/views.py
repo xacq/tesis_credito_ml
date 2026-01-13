@@ -1,123 +1,168 @@
-from django.shortcuts import render
-
-# Create your views here.
 import os
+import json
 import joblib
 import pandas as pd
 import numpy as np
-from django.shortcuts import render
-from django.conf import settings
-from .forms import CreditForm
 
-# 1. Cargar modelo y scaler al iniciar el servidor (para eficiencia)
-MODEL_PATH = os.path.join(settings.BASE_DIR, 'credit_risk/ml_models/modelo_riesgo_v1.pkl')
-SCALER_PATH = os.path.join(settings.BASE_DIR, 'credit_risk/ml_models/scaler.pkl')
-COLUMNS_PATH = os.path.join(settings.BASE_DIR, 'credit_risk/ml_models/model_columns.pkl')
+from django.conf import settings
+from django.shortcuts import render
+from django.contrib import messages
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth.views import LoginView
+from django.urls import reverse_lazy
+
+from .forms import CreditForm, FileUploadForm
+from .models import CreditEvaluation
+
+
+# =========================
+# CARGA DE MODELO AL INICIAR
+# =========================
+MODEL_PATH = os.path.join(settings.BASE_DIR, 'credit_risk', 'ml_models', 'modelo_riesgo.pkl')
+SCALER_PATH = os.path.join(settings.BASE_DIR, 'credit_risk', 'ml_models', 'scaler.pkl')
+FEATURES_PATH = os.path.join(settings.BASE_DIR, 'credit_risk', 'ml_models', 'features.json')
 
 modelo = joblib.load(MODEL_PATH)
-scaler = joblib.load(SCALER_PATH)
-model_columns = joblib.load(COLUMNS_PATH)
+scaler = joblib.load(SCALER_PATH) if os.path.exists(SCALER_PATH) else None
 
+with open(FEATURES_PATH, 'r', encoding='utf-8') as f:
+    model_columns = json.load(f)
+
+
+# =========================
+# LOGIN VIEW
+# =========================
+class CustomLoginView(LoginView):
+    template_name = 'core/login.html'
+    redirect_authenticated_user = True
+
+    def get_success_url(self):
+        return reverse_lazy('home')
+
+
+# =========================
+# UTIL: ARMAR INPUT DEL MODELO
+# =========================
+def build_model_input(data: dict) -> pd.DataFrame:
+    df_input = pd.DataFrame(0, index=[0], columns=model_columns)
+
+    # Numéricas
+    cols_num = ['dias_mora_prom', 'edad', 'ingreso_mensual', 'ventas_anuales', 'monto_solicitado', 'plazo_meses']
+    for col in cols_num:
+        if col in df_input.columns:
+            df_input[col] = float(data.get(col, 0) or 0)
+
+    # Booleanas
+    bool_map = {
+        'tiene_garante': data.get('tiene_garante', False),
+        'propiedad_completa': data.get('propiedad_completa', False),
+        'estado_legal': data.get('estado_legal', False),
+        'rastreo_instalado': data.get('rastreo_instalado', 0),
+    }
+    for col, val in bool_map.items():
+        if col in df_input.columns:
+            df_input[col] = 1 if val else 0
+
+    # Estado civil (one-hot)
+    estado_civil = data.get('estado_civil')
+    if estado_civil:
+        key_direct = f"estado_civil_{estado_civil}"
+        if key_direct in df_input.columns:
+            df_input[key_direct] = 1
+        else:
+            map_ec = {'UnionLibre': 'Unión Libre'}
+            estado_civil_norm = map_ec.get(estado_civil, estado_civil)
+            key_norm = f"estado_civil_{estado_civil_norm}"
+            if key_norm in df_input.columns:
+                df_input[key_norm] = 1
+
+    # Garantía (one-hot)
+    garantia = data.get('garantia')
+    if garantia:
+        key = f"garantia_{garantia}"
+        if key in df_input.columns:
+            df_input[key] = 1
+
+    # Escalado (si aplica)
+    if scaler is not None:
+        df_scaled = scaler.transform(df_input)
+        df_input = pd.DataFrame(df_scaled, index=df_input.index, columns=df_input.columns)
+
+    return df_input
+
+
+# =========================
+# VISTA PRINCIPAL: PREDICCIÓN
+# =========================
+@login_required
 def predict_view(request):
     resultado = None
     probabilidad = None
-    
+
     if request.method == 'POST':
         form = CreditForm(request.POST)
         if form.is_valid():
             data = form.cleaned_data
-            
-            # --- PREPROCESAMIENTO (Igual que en Notebook 01) ---
-            
-            # 1. Crear DataFrame base con una sola fila
-            # Nota: Debemos inicializar TODAS las columnas que el modelo espera (One-Hot Encoding)
-            # Para simplificar, creamos un diccionario con valores por defecto en 0
-            
-            # Mapa de Score
-            mapa_score = {'AAA': 5, 'AA': 4, 'A': 3, 'Analista': 2, 'Rechazado': 1}
-            score_num = mapa_score[data['score_interno']]
-            
-            # Estructura de entrada cruda para procesar
-            input_dict = {
-                'dias_mora_prom': data['dias_mora_prom'],
-                'edad': data['edad'],
-                'ingreso_mensual': data['ingreso_mensual'],
-                'ventas_anuales': data['ventas_anuales'],
-                'monto_solicitado': data['monto_solicitado'],
-                'plazo_meses': data['plazo_meses'],
-                'score_interno_num': score_num,
-                'ventas_anuales': data['ventas_anuales'],
-                # Variables booleanas directas
-                'tiene_garante': 1 if data['tiene_garante'] else 0,
-                'propiedad_completa': 1 if data['propiedad_completa'] else 0,
-                'estado_legal': 1 if data['estado_legal'] else 0,
-                'rastreo_instalado': 0 # Asumimos 0 o lo agregas al form si deseas
-            }
-            
-            # --- ONE HOT ENCODING MANUAL ---
-            # El modelo espera columnas específicas como 'segmento_credito_Microcrédito'
-            # Aquí definimos las que salieron del entrenamiento (revisar X_train.columns)
 
-            # Crear DataFrame lleno de ceros
-            df_input = pd.DataFrame(0, index=[0], columns=model_columns)
-            
-            # Llenar numéricas
-            cols_num = ['dias_mora_prom', 'edad', 'ingreso_mensual', 'ventas_anuales', 'monto_solicitado', 'plazo_meses']
-            for col in cols_num:
-                df_input[col] = input_dict[col]
-            
-            df_input['score_interno_num'] = score_num
-            df_input['tiene_garante'] = input_dict['tiene_garante']
-            df_input['propiedad_completa'] = input_dict['propiedad_completa']
-            df_input['estado_legal'] = input_dict['estado_legal']
+            df_input = build_model_input(data)
 
-            # Activar Dummies según selección
-            seg = f"segmento_credito_{data['segmento_credito']}"
-            if seg in df_input.columns:
-                df_input[seg] = 1
-                
-            gar = f"garantia_{data['garantia']}"
-            if gar in df_input.columns:
-                df_input[gar] = 1
-
-            # Manejo genérico para estado_civil (causante del error original)
-            if 'estado_civil' in data:
-                ec = f"estado_civil_{data['estado_civil']}"
-                if ec in df_input.columns:
-                    df_input[ec] = 1
-
-            # --- ESCALADO ---
-            df_input[cols_num] = scaler.transform(df_input[cols_num])
-            
-            # --- PREDICCIÓN ---
-            pred = modelo.predict(df_input)[0]
-            prob = modelo.predict_proba(df_input)[0][1]
-            
-            resultado = "RIESGO ALTO (Rechazar)" if pred == 1 else "RIESGO BAJO (Aprobar)"
+            pred = int(modelo.predict(df_input)[0])
+            prob = float(modelo.predict_proba(df_input)[0][1])
             probabilidad = round(prob * 100, 2)
-            
+
+            if prob >= 0.70:
+                recomendacion = "ALTO"
+                resultado = "RIESGO ALTO (Rechazar / Revisar estrictamente)"
+            elif prob >= 0.40:
+                recomendacion = "MEDIO"
+                resultado = "RIESGO MEDIO (Revisión manual)"
+            else:
+                recomendacion = "BAJO"
+                resultado = "RIESGO BAJO (Aprobar)"
+
+            # Guardar evaluación en BD
+            CreditEvaluation.objects.create(
+                user=request.user,
+                edad=data['edad'],
+                estado_civil=data['estado_civil'],
+                ingreso_mensual=data['ingreso_mensual'],
+                ventas_anuales=data.get('ventas_anuales', 0) or 0,
+                monto_solicitado=data['monto_solicitado'],
+                plazo_meses=data['plazo_meses'],
+                dias_mora_prom=data['dias_mora_prom'],
+                garantia=data['garantia'],
+                tiene_garante=bool(data.get('tiene_garante', False)),
+                propiedad_completa=bool(data.get('propiedad_completa', False)),
+                estado_legal=bool(data.get('estado_legal', False)),
+                prob_riesgo=prob,
+                prediccion=pred,
+                recomendacion=recomendacion
+            )
+        else:
+            messages.error(request, "Formulario inválido. Revisa los datos ingresados.")
     else:
         form = CreditForm()
 
     return render(request, 'credit_risk/home.html', {
-        'form': form, 
-        'resultado': resultado, 
+        'form': form,
+        'resultado': resultado,
         'probabilidad': probabilidad
     })
 
+
+# =========================
+# PREDICCIÓN POR LOTES
+# =========================
+@login_required
 def batch_predict_view(request):
-    """Vista para procesamiento de predicciones en lote desde archivos CSV/Excel"""
-    from .forms import FileUploadForm
-    from django.contrib import messages
-    
     results = None
-    
+
     if request.method == 'POST':
         form = FileUploadForm(request.POST, request.FILES)
         if form.is_valid():
             file = request.FILES['file']
+
             try:
-                # 1. Leer archivo según extensión
                 if file.name.endswith('.csv'):
                     df = pd.read_csv(file)
                 elif file.name.endswith(('.xls', '.xlsx')):
@@ -126,81 +171,82 @@ def batch_predict_view(request):
                     messages.error(request, "Formato no soportado. Use CSV (.csv) o Excel (.xlsx)")
                     return render(request, 'credit_risk/batch_predict.html', {'form': form})
 
-                # 2. Validar columnas requeridas
                 required_columns = [
-                    'score_interno', 'dias_mora_prom', 'edad', 'ingreso_mensual', 
-                    'ventas_anuales', 'monto_solicitado', 'plazo_meses', 
-                    'segmento_credito', 'garantia', 'tiene_garante', 
-                    'propiedad_completa', 'estado_legal'
+                    'dias_mora_prom', 'edad', 'ingreso_mensual', 'ventas_anuales',
+                    'monto_solicitado', 'plazo_meses',
+                    'garantia', 'tiene_garante', 'propiedad_completa', 'estado_legal',
+                    'estado_civil'
                 ]
-                
-                missing_cols = [col for col in required_columns if col not in df.columns]
-                if missing_cols:
-                    messages.error(request, f"Faltan las siguientes columnas: {', '.join(missing_cols)}")
+                missing = [c for c in required_columns if c not in df.columns]
+                if missing:
+                    messages.error(request, f"Faltan columnas: {', '.join(missing)}")
                     return render(request, 'credit_risk/batch_predict.html', {'form': form})
 
-                # 3. Procesar cada fila y hacer predicciones
                 predictions = []
                 probabilities = []
-                
-                mapa_score = {'AAA': 5, 'AA': 4, 'A': 3, 'Analista': 2, 'Rechazado': 1}
-                
-                
-                cols_num = ['dias_mora_prom', 'edad', 'ingreso_mensual', 'ventas_anuales', 'monto_solicitado', 'plazo_meses']
-                
-                for idx, row in df.iterrows():
-                    # Convertir score a numérico
-                    score_num = mapa_score.get(row['score_interno'], 2)
-                    
-                    # Crear DataFrame con estructura del modelo
-                    df_input = pd.DataFrame(0, index=[0], columns=model_columns)
-                    
-                    # Llenar valores numéricos
-                    for col in cols_num:
-                        df_input[col] = row[col]
-                    
-                    df_input['score_interno_num'] = score_num
-                    df_input['tiene_garante'] = 1 if row['tiene_garante'] else 0
-                    df_input['propiedad_completa'] = 1 if row['propiedad_completa'] else 0
-                    df_input['estado_legal'] = 1 if row['estado_legal'] else 0
-                    df_input['rastreo_instalado'] = 0
-                    
-                    # Activar columnas dummy según valores
-                    seg = f"segmento_credito_{row['segmento_credito']}"
-                    if seg in df_input.columns:
-                        df_input[seg] = 1
-                    
-                    gar = f"garantia_{row['garantia']}"
-                    if gar in df_input.columns:
-                        df_input[gar] = 1
-                    
-                    # Manejo genérico para estado_civil en carga masiva
-                    if 'estado_civil' in row:
-                        ec = f"estado_civil_{row['estado_civil']}"
-                        if ec in df_input.columns:
-                            df_input[ec] = 1
+                recs = []
 
-                    # Escalar variables numéricas
-                    df_input[cols_num] = scaler.transform(df_input[cols_num])
-                    
-                    # Realizar predicción
-                    pred = modelo.predict(df_input)[0]
-                    prob = modelo.predict_proba(df_input)[0][1]
-                    
+                for _, row in df.iterrows():
+                    df_input = build_model_input(row.to_dict())
+                    pred = int(modelo.predict(df_input)[0])
+                    prob = float(modelo.predict_proba(df_input)[0][1])
+
                     predictions.append("RIESGO ALTO" if pred == 1 else "RIESGO BAJO")
                     probabilities.append(round(prob * 100, 2))
-                
-                # 4. Agregar resultados al DataFrame original
+
+                    if prob >= 0.70:
+                        recs.append("ALTO")
+                    elif prob >= 0.40:
+                        recs.append("MEDIO")
+                    else:
+                        recs.append("BAJO")
+
                 df['Prediccion_Riesgo'] = predictions
                 df['Probabilidad_Impago_%'] = probabilities
-                
-                # Convertir a lista de diccionarios para la plantilla
+                df['Recomendacion'] = recs
+
                 results = df.to_dict(orient='records')
                 messages.success(request, f"✅ Se procesaron {len(df)} registros exitosamente.")
-                
+
             except Exception as e:
                 messages.error(request, f"❌ Error procesando el archivo: {str(e)}")
     else:
         form = FileUploadForm()
-    
+
     return render(request, 'credit_risk/batch_predict.html', {'form': form, 'results': results})
+
+
+# =========================
+# HISTORIAL
+# =========================
+@login_required
+def historial_view(request):
+    evaluaciones = CreditEvaluation.objects.select_related('user').order_by('-created_at')[:200]
+    return render(request, 'credit_risk/historial.html', {'evaluaciones': evaluaciones})
+
+
+from django.shortcuts import get_object_or_404
+
+@login_required
+def evaluation_detail_view(request, pk):
+    evaluacion = get_object_or_404(CreditEvaluation, pk=pk)
+    return render(request, 'credit_risk/evaluacion_detalle.html', {'e': evaluacion})
+
+
+from .forms import DecisionForm
+
+@login_required
+def evaluation_update_view(request, pk):
+    evaluacion = get_object_or_404(CreditEvaluation, pk=pk)
+
+    if request.method == 'POST':
+        form = DecisionForm(request.POST, instance=evaluacion)
+        if form.is_valid():
+            form.save()
+            messages.success(request, "✅ Caso actualizado.")
+            return render(request, 'credit_risk/evaluacion_detalle.html', {'e': evaluacion})
+    else:
+        form = DecisionForm(instance=evaluacion)
+
+    return render(request, 'credit_risk/evaluacion_editar.html', {'form': form, 'e': evaluacion})
+
